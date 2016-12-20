@@ -1,0 +1,91 @@
+#footer{
+	padding:40px 0;
+	background-color:#044379;
+
+	p,a,strong{
+		color:white;
+	}
+
+   ul.redes_sociais_header{
+    	padding:0;
+        height: 27px;
+        text-align: left;
+        list-style:none;
+        margin-bottom:0;
+        margin-top:5px;
+    }
+
+    ul.redes_sociais_header li{
+		margin-right: 5px;
+    }
+
+    ul.redes_sociais_header li:hover{
+        opacity: 0.6;
+        filter: alpha(opacity=60); /* For IE8 and earlier */
+    }
+
+    ul.redes_sociais_header a{
+        display: inline-block;
+        width:26px;
+        height:27px;
+    }
+
+    ul.redes_sociais_header .youtube{
+        background-image: url("images/redes-sociais.jpg");
+        background-position: left,center;
+        background-repeat:no-repeat;
+        width:24px;
+        height:27px;
+        display:inline-block;       
+    }
+
+    ul.redes_sociais_header .instagram{
+        background-image: url("images/redes-sociais.jpg");
+        background-position: -36px,center;
+        background-repeat:no-repeat;
+        width:28px;
+        height:27px;
+        display:inline-block;       
+    }
+
+    ul.redes_sociais_header .twitter{
+        background-image: url("images/redes-sociais.jpg");
+        background-position: -80px,center;
+        background-repeat:no-repeat;
+        width:26px;
+        height:27px;
+        display:inline-block;       
+    }
+
+    ul.redes_sociais_header .facebook{
+        background-image: url("images/redes-sociais.jpg");
+        background-position: -118px,center;
+        background-repeat:no-repeat;
+        width:22px;
+        height:27px;
+        display:inline-block;       
+    }
+}
+
+#copy{
+	padding:10px 0;
+	background-color:#063864;
+
+	.copy-text, span{
+		font-size: 12px;
+		color: white;
+	}
+	.text-footer{
+		padding-top:5px;
+	}
+}
+
+@media (max-width: 991px) {  
+	
+}
+
+@media (min-width: 992px) {  
+  
+}
+
+

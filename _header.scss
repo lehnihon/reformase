@@ -1,0 +1,128 @@
+nav#principal{
+    padding:25px 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1010;
+
+    div.menu-header{
+        margin-top: 25px;
+
+        div.menu-op{
+            float:right;
+            margin-right: 20px;
+            a{
+                color:white;
+                font-weight: bold;
+                padding-bottom:10px;
+                font-size:13px;
+            }
+            a:hover{
+                border-bottom:2px solid white;
+            }
+
+            .menu-img{
+                margin-right: 5px;
+                vertical-align: baseline;
+            }
+        }
+        div.menu-sec{
+        	margin-left: 30px;
+        }
+        .criar-conta{
+			-webkit-border-radius: 6px; 
+			-moz-border-radius: 6px; 
+			border-radius: 6px;
+			border:1px solid white;
+			padding:10px !important;        	
+	    }
+	    .criar-conta:hover{
+	    	background-color: #0079ce;
+	    	border-bottom:1px solid white !important;
+	    }
+
+    }		
+}
+nav#principalb{
+    padding:25px 0;
+
+    div.menu-header{
+        margin-top: 25px;
+
+        div.menu-op{
+            float:right;
+            margin-right: 20px;
+            a{
+                color:#797979;
+                font-weight: bold;
+                padding-bottom:10px;
+                font-size:13px;
+            }
+            a:hover{
+                border-bottom:2px solid #797979;
+            }
+
+            .menu-img{
+                margin-right: 5px;
+                vertical-align: baseline;
+            }
+        }
+        div.menu-sec{
+            margin-left: 30px;
+        }
+        .criar-conta{
+            -webkit-border-radius: 6px; 
+            -moz-border-radius: 6px; 
+            border-radius: 6px;
+            border:1px solid white;
+            padding:10px !important;            
+        }
+        .criar-conta:hover{
+            background-color: #797979;
+            color:white;
+            border-bottom:1px solid white !important;
+        }
+
+    }       
+}
+
+nav.fixar {
+    position:fixed !important;
+    z-index: 1000 !important;
+    margin-top: 0px !important;
+    right: 0 !important;
+    left: 0 !important;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 2px #888888;
+    a{
+        color:#858585 !important;
+    }
+    a:hover{
+        border-bottom:2px solid #858585 !important;
+    }
+    .criar-conta:hover{
+        color:white !important;
+    }
+
+}
+
+@media (max-width: 991px) {  
+    div.menu-responsivo{
+        width: 50px;
+        text-align: left;
+        display: block;
+        padding: 10px;
+    }
+    div.menu-header{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) { 
+    div.menu-responsivo{
+        display: none;
+    }
+    ul.menu-header{
+        display: block;
+    }   
+}
