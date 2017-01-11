@@ -21,11 +21,25 @@
 
 <body <?php body_class(); ?>>
 <div id="page">
+	<nav id="redes">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-md-offset-9">
+					<ul class="redes_sociais_header">
+		              <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCb42k7qXDCeQSI7LvPDc8ZA"></a></li>
+		              <li class="instagram"><a target="_blank" href="https://www.instagram.com/datacerta"></a></li>
+		              <li class="twitter"><a target="_blank" href="https://twitter.com/datacertalog"></a></li>
+		              <li class="facebook"><a target="_blank" href="https://www.facebook.com/datacertalogistica"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
 	<nav id="principal">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 text-left">
-					<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>" />
+					<a href="<?php echo home_url( '/' ); ?>"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.jpg"; ?>" /></a>
 				</div>
 				<div class="col-md-9">
 					<div class="menu-responsivo">
@@ -33,21 +47,22 @@
 							<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 						</button>
 						<ul class="dropdown-menu">
-						><li><a href="<?php echo home_url( '/' )."sobre"; ?>">Sobre a Data Pontual</a></li
+						<li><a href="<?php echo home_url( '/' )."sobre"; ?>">Sobre a Data Pontual</a></li
 						><li><a href="<?php echo home_url( '/' )."logistica-para-ecommerce"; ?>">Logística para e-Commerce</a></li
-						><li><a href="#">Envie um e-mail</a></li
-						><li><a href="#">Ligue Agora</a></li
+						><li><a href="<?php echo home_url( '/' )."envie-email"; ?>">Envie um e-mail</a></li
+						><li><a href="<?php echo home_url( '/' )."ligue-agora"; ?>">Ligue Agora</a></li
 						><li><a href="#">Entrar</a></li
 						><li><a href="#">Criar Conta</a></li>
 						</ul>								
 					</div>						
 					<div class="menu-header clearfix">
-						<div class="menu-op"><a class="criar-conta" href="#">Criar Conta</a></div>
-						<div class="menu-op menu-sec"><a href="#">Entrar</a></div>
-						<div class="menu-op"><a href="#"><img alt="logo" class="e-claro menu-img" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.png"; ?>" />Ligue Agora</a></div>	
-						<div class="menu-op"><a href="#"><img alt="logo" class="e-claro menu-img" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/e-mail.png"; ?>" />Envie um e-mail</a></div>								
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."logistica-para-ecommerce"; ?>">Logística para e-Commerce</a></div>
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">Sobre a Data Pontual</a></div>
+						<div class="menu-op"><a class="criar-conta" href="#">Quero um Orçamento</a></div>
+						<div class="menu-op"><a href="#">Contato</a></div>
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."ligue-agora"; ?>">Dicas</a></div>	
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."envie-email"; ?>">Construções</a></div>								
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."logistica-para-ecommerce"; ?>">Reformas</a></div>
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">Quem Somos</a></div>
+						<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Home</a></div>
 					</div>
 				</div>					
 			</div>

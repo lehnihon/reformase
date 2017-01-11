@@ -1,5 +1,5 @@
 /*
-Theme Name: Data Pontual
+Theme Name: Reformase
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
@@ -35,81 +35,110 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     color: #858585;
     font-size: 22px;
     font-weight: bold; }
+  #page nav#redes {
+    padding: 10px 0; }
+    #page nav#redes ul.redes_sociais_header {
+      height: 28px;
+      text-align: left;
+      list-style: none;
+      margin-bottom: 0; }
+    #page nav#redes ul.redes_sociais_header li:hover {
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      /* For IE8 and earlier */ }
+    #page nav#redes ul.redes_sociais_header li {
+      margin-right: 5px; }
+    #page nav#redes ul.redes_sociais_header a {
+      display: inline-block;
+      width: 28px;
+      height: 28px; }
+    #page nav#redes ul.redes_sociais_header .youtube {
+      background-image: url("images/redes-top.png");
+      background-position: left,center;
+      background-repeat: no-repeat;
+      width: 28px;
+      height: 28px;
+      display: inline-block; }
+    #page nav#redes ul.redes_sociais_header .instagram {
+      background-image: url("images/redes-top.png");
+      background-position: -35px,center;
+      background-repeat: no-repeat;
+      width: 28px;
+      height: 28px;
+      display: inline-block; }
+    #page nav#redes ul.redes_sociais_header .twitter {
+      background-image: url("images/redes-top.png");
+      background-position: -70px,center;
+      background-repeat: no-repeat;
+      width: 28px;
+      height: 28px;
+      display: inline-block; }
+    #page nav#redes ul.redes_sociais_header .facebook {
+      background-image: url("images/redes-top.png");
+      background-position: -106px,center;
+      background-repeat: no-repeat;
+      width: 28px;
+      height: 28px;
+      display: inline-block; }
   #page nav#principal {
     padding: 25px 0;
     position: absolute;
     right: 0;
     left: 0;
-    z-index: 1010; }
+    z-index: 1010;
+    background-color: #514aa3; }
     #page nav#principal div.menu-header {
-      margin-top: 25px; }
+      margin-top: 15px; }
       #page nav#principal div.menu-header div.menu-op {
         float: right;
         margin-right: 20px; }
         #page nav#principal div.menu-header div.menu-op a {
           color: white;
           font-weight: bold;
-          padding-bottom: 10px;
-          font-size: 13px; }
+          padding-bottom: 8px;
+          font-size: 13px;
+          border-color: #514aa3; }
         #page nav#principal div.menu-header div.menu-op a:hover {
-          border-bottom: 2px solid white; }
+          border-bottom: 2px solid white;
+          border-color: white;
+          -webkit-transition: border-color 1s linear;
+          /* Saf3.2+, Chrome */
+          -moz-transition: border-color 1s linear;
+          /* FF3.7+ */
+          -o-transition: border-color 1s linear;
+          /* Opera 10.5 */
+          transition: border-color 1s linear; }
         #page nav#principal div.menu-header div.menu-op .menu-img {
           margin-right: 5px;
           vertical-align: baseline; }
-      #page nav#principal div.menu-header div.menu-sec {
-        margin-left: 30px; }
       #page nav#principal div.menu-header .criar-conta {
+        background-color: #514aa3;
         -webkit-border-radius: 6px;
         -moz-border-radius: 6px;
         border-radius: 6px;
         border: 1px solid white;
+        border-color: #FFFFFF !important;
         padding: 10px !important; }
       #page nav#principal div.menu-header .criar-conta:hover {
-        background-color: #0079ce;
-        border-bottom: 1px solid white !important; }
-  #page nav#principalb {
-    padding: 25px 0; }
-    #page nav#principalb div.menu-header {
-      margin-top: 25px; }
-      #page nav#principalb div.menu-header div.menu-op {
-        float: right;
-        margin-right: 20px; }
-        #page nav#principalb div.menu-header div.menu-op a {
-          color: #797979;
-          font-weight: bold;
-          padding-bottom: 10px;
-          font-size: 13px; }
-        #page nav#principalb div.menu-header div.menu-op a:hover {
-          border-bottom: 2px solid #797979; }
-        #page nav#principalb div.menu-header div.menu-op .menu-img {
-          margin-right: 5px;
-          vertical-align: baseline; }
-      #page nav#principalb div.menu-header div.menu-sec {
-        margin-left: 30px; }
-      #page nav#principalb div.menu-header .criar-conta {
-        -webkit-border-radius: 6px;
-        -moz-border-radius: 6px;
-        border-radius: 6px;
-        border: 1px solid white;
-        padding: 10px !important; }
-      #page nav#principalb div.menu-header .criar-conta:hover {
-        background-color: #797979;
-        color: white;
-        border-bottom: 1px solid white !important; }
+        border-bottom: 1px solid white !important;
+        -webkit-transition: background-color 1s linear !important;
+        /* Saf3.2+, Chrome */
+        -moz-transition: background-color 1s linear !important;
+        /* FF3.7+ */
+        -o-transition: background-color 1s linear !important;
+        /* Opera 10.5 */
+        transition: background-color 1s linear !important;
+        background-color: #8580be !important; }
   #page nav.fixar {
+    padding: 15px 0 !important;
     position: fixed !important;
     z-index: 1000 !important;
     margin-top: 0px !important;
     right: 0 !important;
     left: 0 !important;
+    top: 0 !important;
     background-color: #FFFFFF;
-    box-shadow: 0px 5px 2px #888888; }
-    #page nav.fixar a {
-      color: #858585 !important; }
-    #page nav.fixar a:hover {
-      border-bottom: 2px solid #858585 !important; }
-    #page nav.fixar .criar-conta:hover {
-      color: white !important; }
+    box-shadow: 0px 2px 2px #ececec; }
   @media (max-width: 991px) {
     #page div.menu-responsivo {
       width: 50px;
@@ -144,7 +173,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page #solucoes-home {
     padding: 60px 0; }
   #page #vantagens-ecommerce {
-    background-color: #0166bf;
+    background-color: #b1842c;
     padding: 80px 0; }
     #page #vantagens-ecommerce h2, #page #vantagens-ecommerce p {
       color: white; }
@@ -156,11 +185,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       padding: 10px 50px;
       color: white; }
     #page #vantagens-ecommerce .saiba-mais:hover {
-      background-color: #0079ce; }
+      background-color: #b5934e; }
   #page #vantagens-home {
-    background-image: url("images/caixas.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #b1842c;
     width: 100%;
     padding: 80px 0; }
     #page #vantagens-home h2, #page #vantagens-home p {
@@ -173,28 +200,59 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       padding: 10px 50px;
       color: white; }
     #page #vantagens-home .saiba-mais:hover {
-      background-color: #0079ce; }
+      background-color: #b5934e; }
+    #page #vantagens-home .wrap span, #page #vantagens-home .wrapb span {
+      position: relative;
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      color: #FFFFFF;
+      background-color: #b1842c;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 76px;
+      border: 2px solid #FFFFFF;
+      border-radius: 50%;
+      pointer-events: none; }
+    #page #vantagens-home .wrap span::before {
+      top: 76px; }
+    #page #vantagens-home .wrap span::after {
+      bottom: -152px; }
+    #page #vantagens-home .wrap span::after, #page #vantagens-home .wrap span::before {
+      content: '';
+      position: absolute;
+      left: calc(50% - 1px);
+      width: 2px;
+      height: calc(115px - 17px);
+      background-color: #FFFFFF; }
   #page #orcamento {
     padding: 60px 0; }
   #page #fale-conosco {
     background-color: #ececec;
     padding: 25px 0; }
+  #page #contato-pag {
+    padding: 60px 0; }
+    #page #contato-pag h1 {
+      margin-bottom: 10px; }
+    #page #contato-pag div.info-right {
+      margin-top: 25px;
+      background-color: #b1842c;
+      color: white;
+      padding: 25px; }
   @media (max-width: 991px) {
     #page .col-md-6 {
       margin-bottom: 10px; }
-    #page #vantagens-home {
-      background-image: none; }
-      #page #vantagens-home h2, #page #vantagens-home p {
-        color: #858585; }
-      #page #vantagens-home .saiba-mais {
-        background-color: #0079ce; }
     #page .img-responsivo {
-      width: 100%; } }
+      width: 100%; }
+    #page .wrap span::after, #page .wrap span::before {
+      background-color: transparent !important; } }
   #page #footer {
     padding: 40px 0;
-    background-color: #044379; }
+    background-color: #b5934e; }
     #page #footer p, #page #footer a, #page #footer strong {
       color: white; }
+    #page #footer a:hover {
+      color: #b1842c; }
     #page #footer ul.redes_sociais_header {
       padding: 0;
       height: 27px;
@@ -242,26 +300,48 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: inline-block; }
   #page #copy {
     padding: 10px 0;
-    background-color: #063864; }
+    background-color: #a88032; }
     #page #copy .copy-text, #page #copy span {
       font-size: 12px;
       color: white; }
     #page #copy .text-footer {
       padding-top: 5px; }
   #page .input-contato {
+    border: 2px solid #D3D3D3;
+    padding: 10px;
+    border-radius: 6px; }
+  #page .input-contatob {
     border: 0;
-    padding: 5px;
-    background-color: #f4f4f4; }
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #f0f2f4;
+    width: 90%; }
+  #page .btn-contato {
+    border: 0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding: 10px 70px;
+    background-color: #b1842c;
+    color: white;
+    margin-top: 10px; }
+  #page .btn-contato:hover {
+    background-color: #b5934e; }
   #page .btn-redondo {
+    border: 0;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
     padding: 10px 20px; }
   #page .btn-azul {
-    background-color: #3b78c9;
+    background-color: #b1842c;
     color: white; }
   #page .btn-azul:hover {
-    background-color: #9dbbe4; }
+    background-color: #b5934e; }
+  #page .form7 {
+    margin-top: 40px; }
+    #page .form7 p {
+      margin-bottom: 20px; }
 
 .videoWrapper {
   position: relative;

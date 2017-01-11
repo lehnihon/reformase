@@ -38,7 +38,7 @@ get_header(); ?>
 		</div><br><br>		
 		<div class="row">
 			<div class="col-md-2 col-md-offset-2">
-				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/datapontual-log1.jpg"; ?>" />
+				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/datapontual-log1.png"; ?>" />
 			</div>
 			<div class="col-md-6 text-left">
 				<h2>Logística sob medida para cada loja virtual</h2><br>
@@ -50,7 +50,7 @@ get_header(); ?>
 		</div><br><br>
 		<div class="row">
 			<div class="col-md-2 col-md-offset-2">
-				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/datapontual-log2.jpg"; ?>" />
+				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/datapontual-log2.png"; ?>" />
 			</div>
 			<div class="col-md-6 text-left">
 				<h2>Buscamos seus produtos com toda segurança</h2><br>
@@ -60,7 +60,7 @@ get_header(); ?>
 		</div><br><br>
 		<div class="row">
 			<div class="col-md-2 col-md-offset-2">
-				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/datapontual-log3.jpg"; ?>" />
+				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/datapontual-log3.png"; ?>" />
 			</div>
 			<div class="col-md-6 text-left">
 				<h2>Nosso espaço</h2><br>
@@ -72,7 +72,7 @@ get_header(); ?>
 		</div><br><br>
 		<div class="row">
 			<div class="col-md-2 col-md-offset-2">
-				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/datapontual-log4.jpg"; ?>" />
+				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/datapontual-log4.png"; ?>" />
 			</div>
 			<div class="col-md-6 text-left">
 				<h2>Empacotamos seus produtos com segurança</h2><br>
@@ -84,7 +84,7 @@ get_header(); ?>
 		</div><br><br>
 		<div class="row">
 			<div class="col-md-2 col-md-offset-2">
-				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/datapontual-log5.jpg"; ?>" />
+				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/datapontual-log5.png"; ?>" />
 			</div>
 			<div class="col-md-6 text-left">
 				<h2>Transporte e Distribuição</h2><br>
@@ -94,7 +94,7 @@ get_header(); ?>
 		</div><br><br>
 		<div class="row">
 			<div class="col-md-2 col-md-offset-2">
-				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/datapontual-log6.jpg"; ?>" />
+				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/datapontual-log6.png"; ?>" />
 			</div>
 			<div class="col-md-6 text-left">
 				<h2>Sistema de Rastreamento Online e via App</h2><br>

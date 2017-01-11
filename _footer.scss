@@ -1,10 +1,14 @@
 #footer{
 	padding:40px 0;
-	background-color:#044379;
+	background-color:#b5934e;
 
 	p,a,strong{
 		color:white;
 	}
+
+    a:hover{
+        color:#b1842c;
+    }
 
    ul.redes_sociais_header{
     	padding:0;
@@ -69,7 +73,7 @@
 
 #copy{
 	padding:10px 0;
-	background-color:#063864;
+	background-color:#a88032;
 
 	.copy-text, span{
 		font-size: 12px;

@@ -1,5 +1,5 @@
 /*
-Theme Name: Data Pontual
+Theme Name: Reformase
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
@@ -50,12 +50,36 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	@import 'footer';
 
 	.input-contato{
+		border:2px solid #D3D3D3;
+		padding:10px;
+		border-radius: 6px;
+	}
+
+	.input-contatob{
 		border:0;
-		padding:5px;
-		background-color: #f4f4f4;
+		padding:10px;
+		border-radius: 6px;
+		background-color:#f0f2f4;
+		width:90%;
+	}
+
+	.btn-contato{
+		border:0;
+		-webkit-border-radius: 6px; 
+		-moz-border-radius: 6px; 
+		border-radius: 6px;
+		padding:10px 70px;
+		background-color:#b1842c;
+		color:white;
+		margin-top:10px;
+	}
+
+	.btn-contato:hover{
+		background-color:#b5934e;
 	}
 
 	.btn-redondo{
+		border:0;
 		-webkit-border-radius: 6px; 
 		-moz-border-radius: 6px; 
 		border-radius: 6px;
@@ -63,12 +87,20 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	.btn-azul{
-		background-color:#3b78c9;
+		background-color:#b1842c;
 		color:white;
 	}
 
 	.btn-azul:hover{
-		background-color:#9dbbe4;
+		background-color:#b5934e;
+	}
+
+	.form7{
+		margin-top:40px;
+
+		p{
+			margin-bottom:20px;
+		}
 	}
 
 }

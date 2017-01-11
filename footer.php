@@ -19,13 +19,16 @@
 				</div>
 				<div class="col-md-2 text-left">
 					<strong>A Empresa</strong><br>
-					<p><a href="#sobre-home">Sobre a Data Pontual</a><br>
-						<a href="#orcamento">Fale Conosco</a></p>
+					<p><a href="<?php echo home_url( '/' )."sobre"; ?>">Sobre a Data Pontual</a><br>
+						<a href="<?php echo home_url( '/' )."envie-email"; ?>">Fale Conosco</a><br>
+						<a href="<?php echo home_url( '/' )."seja-fornecedor"; ?>">Seja nosso fornecedor</a><br>
+						<a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">Trabalhe conosco</a>
+						</p>
 				</div>
 				<div class="col-md-2 text-left">
 					<strong>Serviços</strong><br>
-					<p><a href="#solucoes-home">Logística para e-Comm.</a><br>
-						<a href="#orcamento">Solicite um Orçamento</a></p>
+					<p><a href="<?php echo home_url( '/' )."logistica-para-ecommerce"; ?>">Logística para e-Comm.</a><br>
+						<a href="<?php echo home_url( '/' )."envie-email"; ?>">Solicite um Orçamento</a></p>
 				</div>
 				<div class="col-md-2 text-left">
 					<strong>Telefones</strong><br>
