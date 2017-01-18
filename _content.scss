@@ -1,18 +1,6 @@
 #sobre-home{
 	background-color:#f9f9f9;
 	padding-top:60px;
-
-	ul{
-		padding-left: 20px;
-
-		li{
-			color: #3b78c9;
-
-			span{
-				color:#858585;
-			}
-		}
-	}
 }
 
 #sobre-descricao{
@@ -33,6 +21,23 @@
 
 #solucoes-home{
 	padding:60px 0;
+	background-color:#514aa3;
+
+	h2{
+		color:#FFFFFF;
+	}
+
+	p{
+		color:#FFFFFF;
+	}
+
+	a{
+		color:#FFFFFF;
+	}
+
+	a:hover{
+		font-weight:bold;
+	}
 }
 
 #vantagens-ecommerce{

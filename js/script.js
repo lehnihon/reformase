@@ -16,6 +16,88 @@
         }
     });
 
+    $('.a1').attr("class", "animated fadeInUp");
+    $('.a2').attr("class", "animated fadeInUp");
+	setTimeout(
+	  function() 
+	  {
+	  	$('.a3').attr("class", "animated fadeInUp");
+		setTimeout(
+		  function()
+		  {
+		  	$('.a4').attr("class", "animated fadeIn");
+		  }, 500);
+	  }, 500);
+
+    $('.b1').attr("class", "animated fadeInRight");
+    $('.b2').attr("class", "animated fadeInDown");
+	setTimeout(
+	  function() 
+	  {
+	  	$('.b3').attr("class", "animated fadeInUp");
+	  }, 500);
+
+    $('.c1').attr("class", "animated fadeInLeft");
+    $('.c2').attr("class", "animated fadeInLeft");
+	setTimeout(
+	  function() 
+	  {
+	  	$('.c3').attr("class", "animated fadeIn");
+		setTimeout(
+		  function() 
+		  {
+		  	$('.c4').attr("class", "animated fadeIn");
+			setTimeout(
+			  function() 
+			  {
+			  	$('.c5').attr("class", "animated fadeIn");
+				setTimeout(
+				  function() 
+				  {
+				  	$('.c6').attr("class", "animated fadeIn");
+				  }, 300);
+			  }, 300);
+		  }, 300);
+	  }, 300);
+
+    $('.d1').attr("class", "animated fadeInLeft");
+    $('.d3').attr("class", "animated fadeInLeft");
+	setTimeout(
+	  function() 
+	  {
+	  	$('.d2').attr("class", "animated fadeInDown");
+	  }, 500);
+
+
+
+
+
+	$('.ref-com').on('mouseenter',function(){
+	   $('.e2').attr("class", "animated fadeInUp");
+		setTimeout(
+		  function() 
+		  {
+		  	$('.e4').attr("class", "animated fadeInUp");
+		  	$('.e5').attr("class", "animated fadeInUp");
+		  }, 500);
+	});
+
+	$('.ref-apt').on('mouseenter',function(){
+	    $('.f1').attr("class", "animated fadeInUp");
+		setTimeout(
+		  function() 
+		  {
+		  	$('.f2').attr("class", "animated fadeInUp");
+		  	$('.f4').attr("class", "animated fadeInUp");
+		  }, 500);
+	});
+
+	$('.ref-res').on('mouseenter',function(){
+	  	$('.g2').attr("class", "animated fadeInUp");
+	  	$('.g3').attr("class", "animated fadeInDown");
+	});
+
+
     $(".anima-a").css('visibility','hidden');
     $(".anima-b").css('visibility','hidden');
     $(".anima-c").css('visibility','hidden');

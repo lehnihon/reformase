@@ -34,13 +34,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	h1{
-		color:#858585;
+		color:#514aa3;
 		font-size: 22px;
 		font-weight: bold;
 	}
 
 	h2{
-		color:#858585;
+		color:#514aa3;
 		font-size: 22px;
 		font-weight: bold;		
 	}
@@ -103,6 +103,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		}
 	}
 
+}
+
+.a1, .a2, .a3, .a4, .b1, .b2, .b3, .c1, .c2, .c3, .c4, .c5, .c6, .d1, .d2, .d3, .e2, .e4, .e5, .f1, .f2, .f4, .g2, .g3 {
+	visibility:hidden;
 }
 
 .videoWrapper {

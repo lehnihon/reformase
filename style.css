@@ -28,11 +28,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page h1, #page h2, #page h3, #page h4, #page h5, #page h6 {
     margin: 0; }
   #page h1 {
-    color: #858585;
+    color: #514aa3;
     font-size: 22px;
     font-weight: bold; }
   #page h2 {
-    color: #858585;
+    color: #514aa3;
     font-size: 22px;
     font-weight: bold; }
   #page nav#redes {
@@ -155,12 +155,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page #sobre-home {
     background-color: #f9f9f9;
     padding-top: 60px; }
-    #page #sobre-home ul {
-      padding-left: 20px; }
-      #page #sobre-home ul li {
-        color: #3b78c9; }
-        #page #sobre-home ul li span {
-          color: #858585; }
   #page #sobre-descricao {
     padding: 60px 0; }
     #page #sobre-descricao ul {
@@ -171,7 +165,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           color: #858585;
           font-size: 14px; }
   #page #solucoes-home {
-    padding: 60px 0; }
+    padding: 60px 0;
+    background-color: #514aa3; }
+    #page #solucoes-home h2 {
+      color: #FFFFFF; }
+    #page #solucoes-home p {
+      color: #FFFFFF; }
+    #page #solucoes-home a {
+      color: #FFFFFF; }
+    #page #solucoes-home a:hover {
+      font-weight: bold; }
   #page #vantagens-ecommerce {
     background-color: #b1842c;
     padding: 80px 0; }
@@ -342,6 +345,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     margin-top: 40px; }
     #page .form7 p {
       margin-bottom: 20px; }
+
+.a1, .a2, .a3, .a4, .b1, .b2, .b3, .c1, .c2, .c3, .c4, .c5, .c6, .d1, .d2, .d3, .e2, .e4, .e5, .f1, .f2, .f4, .g2, .g3 {
+  visibility: hidden; }
 
 .videoWrapper {
   position: relative;
