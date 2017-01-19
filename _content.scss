@@ -1,21 +1,15 @@
 #sobre-home{
-	background-color:#f9f9f9;
-	padding-top:60px;
-}
-
-#sobre-descricao{
 	padding:60px 0;
 
-	ul{
-		font-size: 18px;
-		li{
-			color: #3b78c9;
+	h4{
+		color:#514aa3;
+		font-weight:bold;
+		margin-bottom:20px;
+		margin-top:30px;
+	}
 
-			span{
-				color:#858585;
-				font-size: 14px;
-			}
-		}
+	h5{
+		line-height:20px;
 	}
 }
 
@@ -27,12 +21,13 @@
 		color:#FFFFFF;
 	}
 
-	p{
+	h5{
 		color:#FFFFFF;
 	}
 
-	a{
+	p{
 		color:#FFFFFF;
+		margin-top:30px;
 	}
 
 	a:hover{
@@ -40,34 +35,13 @@
 	}
 }
 
-#vantagens-ecommerce{
-	background-color:#b1842c;
-   	padding:80px 0;
-
-   	h2,p{
-   		color:white
-   	}
-   	
-    .saiba-mais{
-		-webkit-border-radius: 6px; 
-		-moz-border-radius: 6px; 
-		border-radius: 6px;
-		border:2px solid white;
-		padding:10px 50px;  
-		color:white;      	
-    }
-    .saiba-mais:hover{
-    	background-color: #b5934e;
-    }	
-}
 
 #vantagens-home{
-	background-color:#b1842c;
-    width: 100%;
-   	padding:80px 0;
+   	padding:60px 0;
 
-   	h2,p{
-   		color:white
+   	h4{
+   		color:#514aa3;
+   		font-weight:bold;
    	}
 
     .saiba-mais{
@@ -88,11 +62,11 @@
 	    width: 80px;
 	    height: 80px;
 	    color: #FFFFFF;
-	    background-color: #b1842c;
+	    background-color: #FFFFFF;
 	    font-size: 40px;
 	    font-weight: 600;
 	    line-height: 76px;
-	    border: 2px solid #FFFFFF;
+	    border: 2px solid #514aa3;
 	    border-radius: 50%;
 	    pointer-events: none;
 	}
@@ -111,7 +85,7 @@
 	    left: calc(50% - 1px);
 	    width: 2px;
 	    height: calc(115px - 17px);
-	    background-color: #FFFFFF;
+	    background-color: #514aa3;
 	}
 
 

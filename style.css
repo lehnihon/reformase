@@ -22,7 +22,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 #page {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #858585;
-  text-align: center; }
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px; }
   #page a:hover {
     text-decoration: none; }
   #page h1, #page h2, #page h3, #page h4, #page h5, #page h6 {
@@ -35,6 +37,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     color: #514aa3;
     font-size: 22px;
     font-weight: bold; }
+  #page h4 {
+    font-size: 18px; }
+  #page h5 {
+    font-size: 14px; }
   #page nav#redes {
     padding: 10px 0; }
     #page nav#redes ul.redes_sociais_header {
@@ -153,48 +159,31 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page ul.menu-header {
       display: block; } }
   #page #sobre-home {
-    background-color: #f9f9f9;
-    padding-top: 60px; }
-  #page #sobre-descricao {
     padding: 60px 0; }
-    #page #sobre-descricao ul {
-      font-size: 18px; }
-      #page #sobre-descricao ul li {
-        color: #3b78c9; }
-        #page #sobre-descricao ul li span {
-          color: #858585;
-          font-size: 14px; }
+    #page #sobre-home h4 {
+      color: #514aa3;
+      font-weight: bold;
+      margin-bottom: 20px;
+      margin-top: 30px; }
+    #page #sobre-home h5 {
+      line-height: 20px; }
   #page #solucoes-home {
     padding: 60px 0;
     background-color: #514aa3; }
     #page #solucoes-home h2 {
       color: #FFFFFF; }
+    #page #solucoes-home h5 {
+      color: #FFFFFF; }
     #page #solucoes-home p {
-      color: #FFFFFF; }
-    #page #solucoes-home a {
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      margin-top: 30px; }
     #page #solucoes-home a:hover {
       font-weight: bold; }
-  #page #vantagens-ecommerce {
-    background-color: #b1842c;
-    padding: 80px 0; }
-    #page #vantagens-ecommerce h2, #page #vantagens-ecommerce p {
-      color: white; }
-    #page #vantagens-ecommerce .saiba-mais {
-      -webkit-border-radius: 6px;
-      -moz-border-radius: 6px;
-      border-radius: 6px;
-      border: 2px solid white;
-      padding: 10px 50px;
-      color: white; }
-    #page #vantagens-ecommerce .saiba-mais:hover {
-      background-color: #b5934e; }
   #page #vantagens-home {
-    background-color: #b1842c;
-    width: 100%;
-    padding: 80px 0; }
-    #page #vantagens-home h2, #page #vantagens-home p {
-      color: white; }
+    padding: 60px 0; }
+    #page #vantagens-home h4 {
+      color: #514aa3;
+      font-weight: bold; }
     #page #vantagens-home .saiba-mais {
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
@@ -210,11 +199,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       width: 80px;
       height: 80px;
       color: #FFFFFF;
-      background-color: #b1842c;
+      background-color: #FFFFFF;
       font-size: 40px;
       font-weight: 600;
       line-height: 76px;
-      border: 2px solid #FFFFFF;
+      border: 2px solid #514aa3;
       border-radius: 50%;
       pointer-events: none; }
     #page #vantagens-home .wrap span::before {
@@ -227,7 +216,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       left: calc(50% - 1px);
       width: 2px;
       height: calc(115px - 17px);
-      background-color: #FFFFFF; }
+      background-color: #514aa3; }
   #page #orcamento {
     padding: 60px 0; }
   #page #fale-conosco {
@@ -331,22 +320,31 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .btn-contato:hover {
     background-color: #b5934e; }
   #page .btn-redondo {
-    border: 0;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    padding: 10px 20px; }
-  #page .btn-azul {
-    background-color: #b1842c;
-    color: white; }
-  #page .btn-azul:hover {
-    background-color: #b5934e; }
+    border: 2px solid #514aa3;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: bold; }
+  #page .btn-roxo {
+    background-color: transparent;
+    color: #514aa3;
+    -webkit-transition-duration: 0.5s;
+    /* Safari */
+    transition-duration: 0.5s; }
+  #page .btn-roxo:hover {
+    background-color: #514aa3;
+    color: #FFFFFF; }
   #page .form7 {
     margin-top: 40px; }
     #page .form7 p {
       margin-bottom: 20px; }
 
-.a1, .a2, .a3, .a4, .b1, .b2, .b3, .c1, .c2, .c3, .c4, .c5, .c6, .d1, .d2, .d3, .e2, .e4, .e5, .f1, .f2, .f4, .g2, .g3 {
+.a1, .a2, .a3, .a4, .b1, .b2, .b3, .c1, .c2, .c3, .c4,
+.c5, .c6, .d1, .d2, .d3, .e2, .e4, .e5, .f1, .f2, .f4,
+.g2, .g3, .anima-a, .anima-b, .anima-c, .anima-d, .anima-e,
+.anima-f, .anima-g, .anima-h, .anima-i, .anima-j {
   visibility: hidden; }
 
 .videoWrapper {

@@ -24,6 +24,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	color:#858585;
 	text-align:center;
+	line-height:20px;
+	font-size:14px;
 
 	a:hover{
 		text-decoration: none;
@@ -43,6 +45,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		color:#514aa3;
 		font-size: 22px;
 		font-weight: bold;		
+	}
+
+	h4{
+		font-size:18px;
+	}
+
+	h5{
+		font-size:14px;
 	}
 
 	@import 'header';
@@ -79,20 +89,25 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	.btn-redondo{
-		border:0;
-		-webkit-border-radius: 6px; 
-		-moz-border-radius: 6px; 
-		border-radius: 6px;
-		padding:10px 20px;
+		border:2px solid #514aa3;
+		-webkit-border-radius: 8px; 
+		-moz-border-radius: 8px; 
+		border-radius: 8px;
+		padding:15px 25px;
+		font-size:16px;
+		font-weight:bold;
 	}
 
-	.btn-azul{
-		background-color:#b1842c;
-		color:white;
+	.btn-roxo{
+		background-color:transparent;
+		color:#514aa3;
+	    -webkit-transition-duration: 0.5s; /* Safari */
+	    transition-duration: 0.5s;
 	}
 
-	.btn-azul:hover{
-		background-color:#b5934e;
+	.btn-roxo:hover{
+		background-color:#514aa3;
+		color:#FFFFFF;
 	}
 
 	.form7{
@@ -105,7 +120,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 }
 
-.a1, .a2, .a3, .a4, .b1, .b2, .b3, .c1, .c2, .c3, .c4, .c5, .c6, .d1, .d2, .d3, .e2, .e4, .e5, .f1, .f2, .f4, .g2, .g3 {
+.a1, .a2, .a3, .a4, .b1, .b2, .b3, .c1, .c2, .c3, .c4,
+.c5, .c6, .d1, .d2, .d3, .e2, .e4, .e5, .f1, .f2, .f4,
+.g2, .g3, .anima-a, .anima-b, .anima-c, .anima-d, .anima-e, 
+.anima-f, .anima-g, .anima-h, .anima-i, .anima-j  {
 	visibility:hidden;
 }
 
