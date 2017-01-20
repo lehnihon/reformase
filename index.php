@@ -4,6 +4,9 @@
  */
 
 get_header(); ?>
+<script>
+new WOW().init();
+</script>
 
 <div id="topo" class="container-fluid">
 	<div class="row">		
@@ -14,7 +17,7 @@ get_header(); ?>
 <div id="sobre-home">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 fadeInUp wow">
 				<h1>Reforma de Imóveis</h1><br>
 				<h5>A  ReformaSe é uma empresa especializada em reforma de imóveis, planejamento e execução de obras.<br>
 					Nossa proposta é planejar e realizar sua reforma de forma rápida, segura e eficiente.</h5>
@@ -50,7 +53,7 @@ get_header(); ?>
 				</p>
 			</div>
 		</div><br><br><br>
-		<div class="row">
+		<div class="row animated fadeInUp wow">
 			<div class="col-md-12">
 				<a href="#orcamento" class="btn-redondo btn-roxo">Quero um Orçamento</a>
 			</div>
@@ -61,25 +64,25 @@ get_header(); ?>
 <div id="solucoes-home">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 animated fadeInUp wow">
 				<h2>Qual é o tipo de reforma?</h2><br>
 				<h5>Indique abaixo se você deseja realizar uma reforma residencial, reforma em apartamento, reforma comercial ou construção.</h5>
 			</div>
 		</div><br><br><br>
 		<div class="row">
-			<div class="col-md-3 anima-f col-md-offset-1">
+			<div class="col-md-3 col-md-offset-1 animated fadeInLeft wow">
 				<a class="ref-res" href="#">
 					<?php include 'images/tipo1.svg'; ?>
 					<p>Reforma residencial</p>
 				</a>
 			</div>
-			<div class="col-md-4 anima-e">
+			<div class="col-md-4 animated fadeIn wow">
 				<a class="ref-apt" href="#">
 					<?php include 'images/tipo2.svg'; ?>
 					<p>Reforma em apartamento</p>
 				</a>
 			</div>
-			<div class="col-md-3 anima-g">
+			<div class="col-md-3 animated fadeInRight wow">
 				<a class="ref-com" href="#">
 					<?php include 'images/tipo3.svg'; ?>
 					<p>Reforma comercial</p>
@@ -93,9 +96,9 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2 col-md-offset-2">
-				<div class="wrap"><span class="anima-h"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant1.jpg"; ?>" /></span></div>
+				<div class="wrap"><span class="animated zoomIn wow"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant1.jpg"; ?>" /></span></div>
 			</div>
-			<div class="col-md-6 text-left">
+			<div class="col-md-6 text-left animated fadeInUp wow">
 				<h4>Acompanhe a reforma do seu imóvel</h4><br>
 				<p>Acompanhe passo a passo o andamento da reforma do 
 					seu imóvel, desde o orçamento e planejamento dos 
@@ -105,9 +108,9 @@ get_header(); ?>
 		</div>
 		<div class="row">
 			<div class="col-md-2 col-md-offset-2">
-				<div class="wrap"><span class="anima-i"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant2.jpg"; ?>" /></span></div>
+				<div class="wrap"><span class="animated zoomIn wow"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant2.jpg"; ?>" /></span></div>
 			</div>
-			<div class="col-md-6 text-left">
+			<div class="col-md-6 text-left animated fadeInUp wow">
 				 <h4>Gestão de Pagamento</h4><br>
 				 <p>Nossa forma de pagamento cabe no seu bolso!<br>
 					Você pode parcelar a execução da reforma do seu imóvel,
@@ -117,41 +120,53 @@ get_header(); ?>
 		</div>
 		<div class="row">
 			<div class="col-md-2 col-md-offset-2">
-				<div class="wrapb"><span class="anima-j"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant3.jpg"; ?>" /></span></div>
+				<div class="wrapb"><span class="animated zoomIn wow"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant3.jpg"; ?>" /></span></div>
 			</div>
-			<div class="col-md-6 text-left">
+			<div class="col-md-6 text-left animated fadeInUp wow">
 				<h4>Seguro de Obra</h4><br>
 				<p>A reforma do seu imóvel poderá contar ainda, com um 
 					seguro de obra, com o intuito de te tranquilizar ainda mais.</p><br><br>
 			</div>
 		</div>
 
+	</div>
+</div>
+
+<div id="depoimento">
+	<div class="container">
 		<div class="row">
-			<div class="col-md-12 anima-f">
-				<a class="saiba-mais" href="<?php echo home_url( '/' )."ligue-agora"; ?>">Ligue Agora</a>
+			<div class="col-md-8 col-md-offset-2 animated fadeInUp wow">
+				<h2>Depoimentos de nossos clientes</h2><br>
+				<h5>Confira os depoimentos de quem já realizaram suas reformas com a gente!</h5>
 			</div>
-		</div>
+		</div><br><br><br>
+		<div class="row">
+			<div class="col-md-3 col-md-offset-1 text-center">
+				<div class="dep-conteudo animated fadeInUp wow">
+					“A @reformase fez a obra aqui em casa com qualidade e no tempo previsto. Tudo ficou como eu queria, Valeu Reformase!!!!”<br>
+					<div class="dep-foto imga"></div>
+				</div>
+			</div>
+			<div class="col-md-4 text-center">
+				<div class="dep-conteudo animated fadeInUp wow" data-wow-delay="0.25s">
+					“A @reformase fez a obra aqui em casa com qualidade e no tempo previsto. Tudo ficou como eu queria, Valeu Reformase!!!!”<br>
+					<div class="dep-foto imgb"></div>
+				</div>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="dep-conteudo animated fadeInUp wow" data-wow-delay="0.5s">
+					“A @reformase fez a obra aqui em casa com qualidade e no tempo previsto. Tudo ficou como eu queria, Valeu Reformase!!!!”<br>
+					<div class="dep-foto imgc"></div>
+				</div>
+			</div>
+		</div><br><br><br><br><br>
+		<div class="row animated fadeInUp wow">
+			<div class="col-md-12">
+				<a href="#orcamento" class="btn-redondo btn-roxo">Mais depoimentos</a>
+			</div>
+		</div><br>
 	</div>
 </div>
 
-<div id="orcamento">
-	<div class="container">
-		<div class="col-md-8 col-md-offset-2 anima-g">
-			<h2>Solicite um orçamento</h2><br>
-			<p>Um especialista da Data Pontual entrará em contato com você!</p>
-			<div class="form7">
-			<?php echo do_shortcode( '[contact-form-7 id="307" title="solicite um orcamento"]' ); ?>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div id="fale-conosco">
-	<div class="container">
-		<div class="col-md-12 text-center">
-			<img class="img-responsivo" alt="processo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/fale-conosco.jpg"; ?>"/>
-		</div>
-	</div>
-</div>
 
 <?php get_footer(); ?>

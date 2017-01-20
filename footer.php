@@ -12,51 +12,18 @@
 	<div id="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 text-left">
-					<strong>Data Pontual</strong><br>
-					<p>Rua Nova Hamburgo, 99 - Ipiranga<br>
-						São Paulo - SP</p>
-				</div>
-				<div class="col-md-2 text-left">
-					<strong>A Empresa</strong><br>
-					<p><a href="<?php echo home_url( '/' )."sobre"; ?>">Sobre a Data Pontual</a><br>
-						<a href="<?php echo home_url( '/' )."envie-email"; ?>">Fale Conosco</a><br>
-						<a href="<?php echo home_url( '/' )."seja-fornecedor"; ?>">Seja nosso fornecedor</a><br>
-						<a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">Trabalhe conosco</a>
-						</p>
-				</div>
-				<div class="col-md-2 text-left">
-					<strong>Serviços</strong><br>
-					<p><a href="<?php echo home_url( '/' )."logistica-para-ecommerce"; ?>">Logística para e-Comm.</a><br>
-						<a href="<?php echo home_url( '/' )."envie-email"; ?>">Solicite um Orçamento</a></p>
-				</div>
-				<div class="col-md-2 text-left">
-					<strong>Telefones</strong><br>
-					<p>11 2061-3138</p>
-				</div>
-				<div class="col-md-3 text-left">
-					<strong>Data Pontual nas redes sociais</strong><br>
-					<ul class="redes_sociais_header">
-						<li class="youtube"><a target="_blank" href="#"></a></li>
-						<li class="instagram"><a target="_blank" href="#"></a></li>
-						<li class="twitter"><a target="_blank" href="#"></a></li>
-						<li class="facebook"><a target="_blank" href="#"></a></li>
-					</ul>					
-				</div>
-			</div><br>
+			a
+			</div>
 		</div>
 	</div>
 	<div id="copy">
 		<div class="container">
 			<div class="row copy-text">
 				<div class="col-md-6 text-left text-footer">
-					&copy; Copyright <?php echo date('Y') ?> - Data Pontual - Logística para Lojas Virtuais
+					&copy; Copyright <?php echo date('Y') ?> - Todos os direitos reservados - ReformaSe
 				</div>
 				<div class="col-md-3 col-md-offset-3 text-left">
-					<a target="_blank" href="http://agenciarino.com.br/">
-						<span>Desenvolvido por</span>
-						<img class="e-claro anima-rino" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/rino-bot.png"; ?>" />
-					</a>
+					<img class="e-claro anima-rino" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/mei.jpg"; ?>" />
 				</div>				
 			</div>
 		</div><!-- .container -->

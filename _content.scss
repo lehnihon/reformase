@@ -91,13 +91,49 @@
 
 }
 
-#orcamento{
+#depoimento{
+	background-color:#f6f8fb;
 	padding:60px 0;
+
+	.dep-conteudo{
+		display:inline-block;
+		background-color:#514aa3;
+		color:#FFFFFF;
+		padding:35px 25px;
+		padding-bottom:0px;
+		border-radius: 10px;
+		line-height:22px;
+		width:250px;
+
+		.dep-foto{
+			border-radius: 50%;
+			border: 1px solid #514aa3;
+			background-color:#FFFFFF;
+		    width: 80px;
+		    height: 80px;
+		    color:black;
+		    position:relative;
+		    top:40px;
+		    left:33%;
+		}
+
+		.imga{
+			background-image: url("images/shodji.jpg");
+			background-size: contain;
+		}
+		.imgb{
+			background-image: url("images/shodji.jpg");
+			background-size: contain;
+		}
+		.imgc{
+			background-image: url("images/shodji.jpg");
+			background-size: contain;
+		}
+	}
 }
 
-#fale-conosco{
-	background-color:#ececec;
-	padding:25px 0;
+#orcamento{
+	padding:60px 0;
 }
 
 #contato-pag{

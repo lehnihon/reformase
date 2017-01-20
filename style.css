@@ -217,11 +217,39 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       width: 2px;
       height: calc(115px - 17px);
       background-color: #514aa3; }
+  #page #depoimento {
+    background-color: #f6f8fb;
+    padding: 60px 0; }
+    #page #depoimento .dep-conteudo {
+      display: inline-block;
+      background-color: #514aa3;
+      color: #FFFFFF;
+      padding: 35px 25px;
+      padding-bottom: 0px;
+      border-radius: 10px;
+      line-height: 22px;
+      width: 250px; }
+      #page #depoimento .dep-conteudo .dep-foto {
+        border-radius: 50%;
+        border: 1px solid #514aa3;
+        background-color: #FFFFFF;
+        width: 80px;
+        height: 80px;
+        color: black;
+        position: relative;
+        top: 40px;
+        left: 33%; }
+      #page #depoimento .dep-conteudo .imga {
+        background-image: url("images/shodji.jpg");
+        background-size: contain; }
+      #page #depoimento .dep-conteudo .imgb {
+        background-image: url("images/shodji.jpg");
+        background-size: contain; }
+      #page #depoimento .dep-conteudo .imgc {
+        background-image: url("images/shodji.jpg");
+        background-size: contain; }
   #page #orcamento {
     padding: 60px 0; }
-  #page #fale-conosco {
-    background-color: #ececec;
-    padding: 25px 0; }
   #page #contato-pag {
     padding: 60px 0; }
     #page #contato-pag h1 {
@@ -240,7 +268,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       background-color: transparent !important; } }
   #page #footer {
     padding: 40px 0;
-    background-color: #b5934e; }
+    background-color: #127cc1; }
     #page #footer p, #page #footer a, #page #footer strong {
       color: white; }
     #page #footer a:hover {
@@ -292,7 +320,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: inline-block; }
   #page #copy {
     padding: 10px 0;
-    background-color: #a88032; }
+    background-color: #0c69a6; }
     #page #copy .copy-text, #page #copy span {
       font-size: 12px;
       color: white; }
@@ -343,8 +371,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 .a1, .a2, .a3, .a4, .b1, .b2, .b3, .c1, .c2, .c3, .c4,
 .c5, .c6, .d1, .d2, .d3, .e2, .e4, .e5, .f1, .f2, .f4,
-.g2, .g3, .anima-a, .anima-b, .anima-c, .anima-d, .anima-e,
-.anima-f, .anima-g, .anima-h, .anima-i, .anima-j {
+.g2, .g3, .anima-a, .anima-b, .anima-c, .anima-d {
   visibility: hidden; }
 
 .videoWrapper {
