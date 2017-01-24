@@ -89,7 +89,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	.btn-redondo{
-		border:2px solid #514aa3;
 		-webkit-border-radius: 8px; 
 		-moz-border-radius: 8px; 
 		border-radius: 8px;
@@ -99,6 +98,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	.btn-roxo{
+		border:2px solid #514aa3;
 		background-color:transparent;
 		color:#514aa3;
 	    -webkit-transition-duration: 0.5s; /* Safari */
@@ -108,6 +108,20 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	.btn-roxo:hover{
 		background-color:#514aa3;
 		color:#FFFFFF;
+	}
+
+	.btn-branco{
+		border:2px solid #FFFFFF;
+		background-color:transparent;
+		color:#FFFFFF;
+	    -webkit-transition-duration: 0.5s; /* Safari */
+	    transition-duration: 0.5s;
+	    display:inline-block;
+	}
+
+	.btn-branco:hover{
+		background-color:#FFFFFF;
+		color:#127cc1!important;
 	}
 
 	.form7{
