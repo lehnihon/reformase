@@ -49,20 +49,21 @@ new WOW().init();
 							<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 						</button>
 						<ul class="dropdown-menu">
-						<li><a href="<?php echo home_url( '/' )."sobre"; ?>">Sobre a Data Pontual</a></li
-						><li><a href="<?php echo home_url( '/' )."logistica-para-ecommerce"; ?>">Logística para e-Commerce</a></li
-						><li><a href="<?php echo home_url( '/' )."envie-email"; ?>">Envie um e-mail</a></li
-						><li><a href="<?php echo home_url( '/' )."ligue-agora"; ?>">Ligue Agora</a></li
-						><li><a href="#">Entrar</a></li
-						><li><a href="#">Criar Conta</a></li>
+						<li><a href="<?php echo home_url( '/' ); ?>">Home</a></li
+						><li><a href="<?php echo home_url( '/' )."sobre"; ?>">Quem Somos</a></li
+						><li><a href="<?php echo home_url( '/' )."reformas"; ?>">Reformas</a></li
+						><li><a href="#">Contruções</a></li
+						><li><a href="#">Dicas</a></li
+						><li><a href="#">Contato</a></li
+						><li><a href="#">Quero um Orçamento</a></li>
 						</ul>								
 					</div>						
 					<div class="menu-header clearfix">
-						<div class="menu-op"><a class="criar-conta" href="#">Quero um Orçamento</a></div>
+						<div class="menu-op"><a href="#">Quero um Orçamento</a></div>
 						<div class="menu-op"><a href="#">Contato</a></div>
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."ligue-agora"; ?>">Dicas</a></div>	
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."envie-email"; ?>">Construções</a></div>								
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."logistica-para-ecommerce"; ?>">Reformas</a></div>
+						<div class="menu-op"><a href="#">Dicas</a></div>	
+						<div class="menu-op"><a href="#">Construções</a></div>								
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."reformas"; ?>">Reformas</a></div>
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">Quem Somos</a></div>
 						<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Home</a></div>
 					</div>

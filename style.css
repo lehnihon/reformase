@@ -168,7 +168,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-bottom: 20px;
       margin-top: 30px; }
     #page #sobre-home h5 {
-      line-height: 20px; }
+      line-height: 22px; }
   #page #sobre {
     padding: 60px 0; }
     #page #sobre h4 {
@@ -177,14 +177,29 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-bottom: 20px;
       margin-top: 30px; }
     #page #sobre h5 {
-      line-height: 20px; }
+      line-height: 22px; }
+  #page #sobre-reformas {
+    padding: 60px 0;
+    background-color: #514aa3;
+    color: #FFFFFF; }
+    #page #sobre-reformas h4 {
+      color: #FFFFFF;
+      font-weight: bold;
+      margin-bottom: 20px;
+      margin-top: 30px; }
+    #page #sobre-reformas h2 {
+      color: #FFFFFF; }
+    #page #sobre-reformas h5 {
+      color: #FFFFFF;
+      line-height: 22px; }
   #page #solucoes-home {
     padding: 60px 0;
     background-color: #514aa3; }
     #page #solucoes-home h2 {
       color: #FFFFFF; }
     #page #solucoes-home h5 {
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      line-height: 22px; }
     #page #solucoes-home p {
       color: #FFFFFF;
       margin-top: 30px; }
@@ -196,6 +211,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     background-color: #f6f8fb; }
     #page #solucoes-sobre h2 {
       color: #514aa3; }
+    #page #solucoes-sobre h5 {
+      line-height: 22px; }
     #page #solucoes-sobre p {
       margin-top: 30px; }
     #page #solucoes-sobre a:hover {

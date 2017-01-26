@@ -22,7 +22,7 @@
 					<a href="#orcamento" class="btn-redondo btn-branco">Mais depoimentos</a>
 				</div>
 				<div class="col-md-6 text-left">
-					<span><a class="fot-sobre" href="#">Saiba mais sobre a Reforma Se</a></span>
+					<span><a class="fot-sobre" href="<?php echo home_url( '/' )."sobre"; ?>">Saiba mais sobre a Reforma Se</a></span>
 				</div>
 			</div>
 			<div class="row">
