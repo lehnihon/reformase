@@ -25,6 +25,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   text-align: center;
   line-height: 20px;
   font-size: 14px; }
+  #page .roxo {
+    color: #514aa3; }
   #page a:hover {
     text-decoration: none; }
   #page h1, #page h2, #page h3, #page h4, #page h5, #page h6 {
@@ -167,6 +169,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-top: 30px; }
     #page #sobre-home h5 {
       line-height: 20px; }
+  #page #sobre {
+    padding: 60px 0; }
+    #page #sobre h4 {
+      color: #514aa3;
+      font-weight: bold;
+      margin-bottom: 20px;
+      margin-top: 30px; }
+    #page #sobre h5 {
+      line-height: 20px; }
   #page #solucoes-home {
     padding: 60px 0;
     background-color: #514aa3; }
@@ -178,6 +189,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       color: #FFFFFF;
       margin-top: 30px; }
     #page #solucoes-home a:hover {
+      font-weight: bold; }
+  #page #solucoes-sobre {
+    padding-top: 150px;
+    padding-bottom: 60px;
+    background-color: #f6f8fb; }
+    #page #solucoes-sobre h2 {
+      color: #514aa3; }
+    #page #solucoes-sobre p {
+      margin-top: 30px; }
+    #page #solucoes-sobre a:hover {
       font-weight: bold; }
   #page #vantagens-home {
     padding: 60px 0; }

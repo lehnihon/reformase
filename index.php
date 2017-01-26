@@ -4,9 +4,6 @@
  */
 
 get_header(); ?>
-<script>
-new WOW().init();
-</script>
 
 <div id="topo" class="container-fluid">
 	<div class="row">		

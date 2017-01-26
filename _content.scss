@@ -13,6 +13,21 @@
 	}
 }
 
+#sobre{
+	padding:60px 0;
+
+	h4{
+		color:#514aa3;
+		font-weight:bold;
+		margin-bottom:20px;
+		margin-top:30px;
+	}
+
+	h5{
+		line-height:20px;
+	}
+}
+
 #solucoes-home{
 	padding:60px 0;
 	background-color:#514aa3;
@@ -34,6 +49,27 @@
 		font-weight:bold;
 	}
 }
+
+#solucoes-sobre{
+	padding-top:150px;
+	padding-bottom:60px;
+	background-color:#f6f8fb;
+
+	h2{
+		color:#514aa3;
+	}
+
+
+	p{
+		margin-top:30px;
+	}
+
+	a:hover{
+		font-weight:bold;
+	}
+}
+
+
 
 
 #vantagens-home{
