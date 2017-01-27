@@ -99,7 +99,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-top: 15px; }
       #page nav#principal div.menu-header div.menu-op {
         float: right;
-        margin-right: 20px; }
+        margin-right: 35px; }
         #page nav#principal div.menu-header div.menu-op a {
           color: white;
           font-weight: bold;
@@ -216,6 +216,39 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page #solucoes-sobre p {
       margin-top: 30px; }
     #page #solucoes-sobre a:hover {
+      font-weight: bold; }
+  #page #reforma-titulo {
+    padding-top: 160px;
+    padding-bottom: 60px;
+    background-color: #f6f8fb; }
+    #page #reforma-titulo h2 {
+      color: #514aa3;
+      margin: 20px 0; }
+    #page #reforma-titulo h5 {
+      line-height: 22px; }
+    #page #reforma-titulo p {
+      margin-top: 30px; }
+    #page #reforma-titulo a:hover {
+      font-weight: bold; }
+  #page #reforma-form {
+    padding: 60px 0;
+    background-color: #514aa3;
+    color: #FFFFFF; }
+    #page #reforma-form input {
+      color: #FFFFFF;
+      display: inline-block; }
+    #page #reforma-form label {
+      display: block; }
+    #page #reforma-form h2 {
+      color: #FFFFFF;
+      margin-bottom: 10px; }
+    #page #reforma-form h5 {
+      color: #FFFFFF;
+      line-height: 22px; }
+    #page #reforma-form p {
+      color: #FFFFFF;
+      margin-top: 30px; }
+    #page #reforma-form a:hover {
       font-weight: bold; }
   #page #vantagens-home {
     padding: 60px 0; }
@@ -404,10 +437,29 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       color: white; }
     #page #copy .text-footer {
       padding-top: 5px; }
-  #page .input-contato {
-    border: 2px solid #D3D3D3;
+  #page .input-select {
+    border: 2px solid #FFFFFF;
+    background-color: #514aa3;
+    padding: 10px;
+    width: 200px;
+    border-radius: 6px; }
+  #page .input-text {
+    border: 2px solid #FFFFFF;
+    background-color: #514aa3;
     padding: 10px;
     border-radius: 6px; }
+  #page .input-checkbox {
+    display: block;
+    margin-left: 20%; }
+    #page .input-checkbox span.wpcf7-list-item {
+      width: 48%;
+      float: left;
+      text-align: left;
+      margin-bottom: 10px; }
+      #page .input-checkbox span.wpcf7-list-item input {
+        margin: 0;
+        margin-right: 10px;
+        vertical-align: middle; }
   #page .input-contatob {
     border: 0;
     padding: 10px;
@@ -462,6 +514,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 .c5, .c6, .d1, .d2, .d3, .e2, .e4, .e5, .f1, .f2, .f4,
 .g2, .g3, .anima-a, .anima-b, .anima-c, .anima-d {
   visibility: hidden; }
+
+.form-data, .form-foto {
+  display: none; }
 
 .videoWrapper {
   position: relative;

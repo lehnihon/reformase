@@ -63,10 +63,37 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	@import 'content';
 	@import 'footer';
 
-	.input-contato{
-		border:2px solid #D3D3D3;
+	.input-select{
+		border:2px solid #FFFFFF;
+		background-color:#514aa3;
+		padding:10px;
+		width:200px;
+		border-radius: 6px;
+	}
+
+	.input-text{
+		border:2px solid #FFFFFF;
+		background-color:#514aa3;
 		padding:10px;
 		border-radius: 6px;
+	}
+
+	.input-checkbox{
+		display:block;
+		margin-left:20%;
+
+		span.wpcf7-list-item{
+			width:48%;
+			float:left;
+			text-align:left;
+			margin-bottom:10px;
+
+			input{
+				margin:0;
+				margin-right:10px;
+				vertical-align:middle;
+			}
+		}
 	}
 
 	.input-contatob{
@@ -142,6 +169,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 .c5, .c6, .d1, .d2, .d3, .e2, .e4, .e5, .f1, .f2, .f4,
 .g2, .g3, .anima-a, .anima-b, .anima-c, .anima-d{
 	visibility:hidden;
+}
+
+.form-data, .form-foto{
+	display:none;
 }
 
 .videoWrapper {

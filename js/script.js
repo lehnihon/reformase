@@ -1,5 +1,15 @@
 ( function( $ ) {
 
+	$('.input-yn').on('change',function(){
+		if($(this).val() == 'Sim'){
+			$('.form-data').css('display','none');
+			$('.form-foto').css('display','block');
+		}else if($(this).val() == 'Não'){
+			$('.form-foto').css('display','none');
+			$('.form-data').css('display','block');
+		}
+	})
+
     var offset = $('#principal').offset().top;
     var $meuMenu = $('#principal'); // guardar o elemento na memoria para melhorar performance
     $(document).on('scroll', function () {

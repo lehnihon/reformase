@@ -96,8 +96,64 @@
 	}
 }
 
+#reforma-titulo{
+	padding-top:160px;
+	padding-bottom:60px;
+	background-color:#f6f8fb;
+
+	h2{
+		color:#514aa3;
+		margin:20px 0;
+	}
 
 
+	h5{
+		line-height:22px;
+	}
+
+	p{
+		margin-top:30px;
+	}
+
+
+	a:hover{
+		font-weight:bold;
+	}
+}
+
+#reforma-form{
+	padding:60px 0;
+	background-color:#514aa3;
+	color:#FFFFFF;
+
+	input{
+		color:#FFFFFF;
+		display:inline-block;
+	}
+
+	label{
+		display:block;
+	}
+
+	h2{
+		color:#FFFFFF;
+		margin-bottom:10px;
+	}
+
+	h5{
+		color:#FFFFFF;
+		line-height:22px;
+	}
+
+	p{
+		color:#FFFFFF;
+		margin-top:30px;
+	}
+
+	a:hover{
+		font-weight:bold;
+	}
+}
 
 #vantagens-home{
    	padding:60px 0;
