@@ -93,6 +93,28 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2 col-md-offset-2">
+				<div class="wrap"><span class="animated zoomIn wow"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant2.jpg"; ?>" /></span></div>
+			</div>
+			<div class="col-md-6 text-left animated fadeInUp wow">
+				 <h4>Gestão de Pagamento</h4><br>
+				 <p>Nossa forma de pagamento cabe no seu bolso!<br>
+					Você pode parcelar a execução da reforma do seu imóvel,
+					mais comodidade e segurança que a ReformaSe
+					oferece pra você.</p><br><br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 col-md-offset-2">
+				<div class="wrap"><span class="animated zoomIn wow"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant3.jpg"; ?>" /></span></div>
+			</div>
+			<div class="col-md-6 text-left animated fadeInUp wow">
+				<h4>Seguro de Obra</h4><br>
+				<p>A reforma do seu imóvel poderá contar ainda, com um 
+					seguro de obra, com o intuito de te tranquilizar ainda mais.</p><br><br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 col-md-offset-2">
 				<div class="wrap"><span class="animated zoomIn wow"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant1.jpg"; ?>" /></span></div>
 			</div>
 			<div class="col-md-6 text-left animated fadeInUp wow">
@@ -105,27 +127,13 @@ get_header(); ?>
 		</div>
 		<div class="row">
 			<div class="col-md-2 col-md-offset-2">
-				<div class="wrap"><span class="animated zoomIn wow"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant2.jpg"; ?>" /></span></div>
+				<div class="wrapb"><span class="animated zoomIn wow"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant4.jpg"; ?>" /></span></div>
 			</div>
 			<div class="col-md-6 text-left animated fadeInUp wow">
-				 <h4>Gestão de Pagamento</h4><br>
-				 <p>Nossa forma de pagamento cabe no seu bolso!<br>
-					Você pode parcelar a execução da reforma do seu imóvel,
-					mais comodidade e segurança que a ReformaSe
-					oferece pra você.</p><br><br><br>
+				<h4>Manutenção Preventiva e corretiva</h4><br>
+				<p>Com a Reforma Se, você também tem a opção de realizar a manutenção preventiva e corretiva do seu estabelecimento comercial e residencial.</p><br><br>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-2 col-md-offset-2">
-				<div class="wrapb"><span class="animated zoomIn wow"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant3.jpg"; ?>" /></span></div>
-			</div>
-			<div class="col-md-6 text-left animated fadeInUp wow">
-				<h4>Seguro de Obra</h4><br>
-				<p>A reforma do seu imóvel poderá contar ainda, com um 
-					seguro de obra, com o intuito de te tranquilizar ainda mais.</p><br><br>
-			</div>
-		</div>
-
 	</div>
 </div>
 
@@ -156,12 +164,7 @@ get_header(); ?>
 					<div class="dep-foto imgc"></div>
 				</div>
 			</div>
-		</div><br><br><br><br><br>
-		<div class="row animated fadeInUp wow">
-			<div class="col-md-12">
-				<a href="#orcamento" class="btn-redondo btn-roxo">Mais depoimentos</a>
-			</div>
-		</div><br>
+		</div><br><br>
 	</div>
 </div>
 

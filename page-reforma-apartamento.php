@@ -24,7 +24,7 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 animated fadeInUp wow">
-				<?php echo do_shortcode('[contact-form-7 id="11" title="Reforma"]'); ?>
+				<?php echo do_shortcode('[contact-form-7 id="56" title="Reforma"]'); ?>
 			</div>
 		</div>
 	</div>

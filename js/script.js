@@ -1,12 +1,40 @@
 ( function( $ ) {
 
+	$( '.btTerms' ).on( 'click', showTerms );
+	$( '.btPolitics' ).on( 'click', showPolitics );
+
+	function showPolitics()
+	{
+		$( '.politics' ).fadeIn();
+		$( 'html,body' ).addClass( 'no-scroll' );
+		$( '.terms' ).find( '.close' ).on( 'click', closeLegals );
+	}
+
+
+	function showTerms()
+	{
+		$( '.legals' ).fadeIn();
+		$( 'html,body' ).addClass( 'no-scroll' );
+		$( '.terms' ).find( '.close' ).on( 'click', closeLegals );
+	}
+
+	function closeLegals()
+	{
+		$( '.terms' ).fadeOut();
+		$( 'html,body' ).removeClass( 'no-scroll' );
+	}
+
 	$('.input-yn').on('change',function(){
 		if($(this).val() == 'Sim'){
+			$(".form-data").removeClass('animated fadeInUp');
 			$('.form-data').css('display','none');
 			$('.form-foto').css('display','block');
+			$(".form-foto").addClass('animated fadeInUp');
 		}else if($(this).val() == 'Não'){
+			$(".form-foto").removeClass('animated fadeInUp');
 			$('.form-foto').css('display','none');
 			$('.form-data').css('display','block');
+			$(".form-data").addClass('animated fadeInUp');
 		}
 	})
 
