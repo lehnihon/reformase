@@ -1,5 +1,10 @@
 ( function( $ ) {
+  	$(function() {
+        $('.videoWrapper').click(function () {
+            $('.videoWrapper iframe').css("pointer-events", "auto");
+        });
 
+	});
 	$( '.btTerms' ).on( 'click', showTerms );
 	$( '.btPolitics' ).on( 'click', showPolitics );
 

@@ -15,19 +15,19 @@ get_header(); ?>
 		</div><br><br><br>
 		<div class="row">
 			<div class="col-md-3 col-md-offset-1 animated fadeInLeft wow">
-				<a class="ref-res" href="#">
+				<a class="ref-res" href="<?php echo home_url( '/' )."reforma-residencial"; ?>">
 					<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tipo1b.jpg"; ?>" />
 					<p class="roxo">Reforma residencial</p>
 				</a>
 			</div>
 			<div class="col-md-4 animated fadeIn wow">
-				<a class="ref-apt" href="#">
+				<a class="ref-apt" href="<?php echo home_url( '/' )."reforma-apartamento"; ?>">
 					<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tipo2b.jpg"; ?>" />
 					<p class="roxo">Reforma em apartamento</p>
 				</a>
 			</div>
 			<div class="col-md-3 animated fadeInRight wow">
-				<a class="ref-com" href="#">
+				<a class="ref-com" href="<?php echo home_url( '/' )."reforma-comercial"; ?>">
 					<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tipo3b.jpg"; ?>" />
 					<p class="roxo">Reforma comercial</p>
 				</a>

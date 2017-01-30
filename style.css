@@ -319,6 +319,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       #page #depoimento .dep-conteudo .imgc {
         background-image: url("images/shodji.jpg");
         background-size: contain; }
+  #page #maps .box-endereco {
+    background-color: #514aa3;
+    color: #FFFFFF; }
   #page #orcamento {
     padding: 60px 0; }
   #page #contato-pag {
@@ -622,12 +625,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 .videoWrapper {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 26.25%;
   /* 16:9 */
   padding-top: 25px;
   height: 0; }
 
 .videoWrapper iframe {
+  pointer-events: none;
   position: absolute;
   top: 0;
   left: 0;

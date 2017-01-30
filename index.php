@@ -68,19 +68,19 @@ get_header(); ?>
 		</div><br><br><br>
 		<div class="row">
 			<div class="col-md-3 col-md-offset-1 animated fadeInLeft wow">
-				<a class="ref-res" href="#">
+				<a class="ref-res" href="<?php echo home_url( '/' )."reforma-residencial"; ?>">
 					<?php include 'images/tipo1.svg'; ?>
 					<p>Reforma residencial</p>
 				</a>
 			</div>
 			<div class="col-md-4 animated fadeIn wow">
-				<a class="ref-apt" href="#">
+				<a class="ref-apt" href="<?php echo home_url( '/' )."reforma-apartamento"; ?>">
 					<?php include 'images/tipo2.svg'; ?>
 					<p>Reforma em apartamento</p>
 				</a>
 			</div>
 			<div class="col-md-3 animated fadeInRight wow">
-				<a class="ref-com" href="#">
+				<a class="ref-com" href="<?php echo home_url( '/' )."reforma-comercial"; ?>">
 					<?php include 'images/tipo3.svg'; ?>
 					<p>Reforma comercial</p>
 				</a>

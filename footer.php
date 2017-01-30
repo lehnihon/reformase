@@ -185,14 +185,13 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="menu-footer clearfix">
-						<div class="menu-op"><a href="#">Reforma residencial</a></div>
-						<div class="menu-op"><a href="#">Reforma em apartamento</a></div>
-						<div class="menu-op"><a href="#">Reforma em escritório</a></div>	
-						<div class="menu-op"><a href="#">Construções</a></div>								
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."reforma-residencial"; ?>">Reforma residencial</a></div>
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."reforma-apartamento"; ?>">Reforma em apartamento</a></div>
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."reforma-escritorio"; ?>">Reforma em escritório</a></div>								
 						<div class="menu-op"><a href="#">Dicas</a></div>
 						<div class="menu-op"><a class="btTerms" href="#">Termos de uso</a></div>
 						<div class="menu-op"><a class="btPolitics" href="#">Política de privacidade</a></div>
-						<div class="menu-op"><a href="#">Contato</a></div>
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>
 					</div>
 				</div>
 			</div>
