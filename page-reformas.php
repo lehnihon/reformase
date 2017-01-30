@@ -8,7 +8,7 @@ get_header(); ?>
 <div id="solucoes-sobre">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 animated fadeInUp wow">
+			<div class="col-md-12 animated fadeInUp">
 				<h1>Qual o tipo de reforma?</h1><br>
 				<h5>Indique abaixo se você deseja realizar uma reforma residencial, reforma em apartamento, reforma comercial ou construção.</h5>
 			</div>
@@ -77,7 +77,7 @@ get_header(); ?>
 		</div><br><br><br>
 		<div class="row animated fadeInUp wow">
 			<div class="col-md-12">
-				<a href="#orcamento" class="btn-redondo btn-branco">Quero um Orçamento</a>
+				<a href="<?php echo home_url( '/' )."reformas"; ?>" class="btn-redondo btn-branco">Quero um Orçamento</a>
 			</div>
 		</div><br>
 	</div>

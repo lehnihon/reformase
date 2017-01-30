@@ -86,21 +86,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		border-radius: 6px;
 	}
 
-	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-		color:#FFFFFF;
-		font-style: italic;
-	}
-	::-moz-placeholder { /* Firefox 19+ */
-		color:#FFFFFF;
-		font-style: italic;
-	}
-	:-ms-input-placeholder { /* IE 10+ */
-		color:#FFFFFF;
-		font-style: italic;
-	}
-	:-moz-placeholder { /* Firefox 18- */
-		color:#FFFFFF;
-		font-style: italic;
+
+	.input-text-branco{
+		border:2px solid #514aa3;
+		padding:10px;
+		border-radius: 6px;
+		width: 100%;
 	}
 
 	.input-checkbox{
@@ -287,6 +278,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     padding-bottom: 26.25%; /* 16:9 */
     padding-top: 25px;
     height: 0;
+    -webkit-box-align:center;
+    -webkit-box-pack:center;
+    display:-webkit-box;
 }
 .videoWrapper iframe {
 	pointer-events: none;
@@ -306,6 +300,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
+
 
 
 

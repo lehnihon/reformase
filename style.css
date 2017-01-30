@@ -47,7 +47,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     padding: 10px 0; }
     #page nav#redes ul.redes_sociais_header {
       height: 28px;
-      text-align: left;
+      text-align: right;
       list-style: none;
       margin-bottom: 0; }
     #page nav#redes ul.redes_sociais_header li:hover {
@@ -99,7 +99,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-top: 15px; }
       #page nav#principal div.menu-header div.menu-op {
         float: right;
-        margin-right: 35px; }
+        margin-left: 35px; }
         #page nav#principal div.menu-header div.menu-op a {
           color: white;
           font-weight: bold;
@@ -237,6 +237,24 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page #reforma-form input {
       color: #FFFFFF;
       display: inline-block; }
+    #page #reforma-form .cont {
+      width: 500px;
+      border: 1px solid #333;
+      padding: 4px; }
+    #page #reforma-form .select-wrapper {
+      background: url(wp-content/themes/reformase/images/anexar-foto.jpg) no-repeat;
+      background-size: cover;
+      display: block;
+      position: relative;
+      width: 33px;
+      height: 26px; }
+    #page #reforma-form #image_src {
+      width: 26px;
+      height: 26px;
+      margin-right: 100px;
+      opacity: 0;
+      filter: alpha(opacity=0);
+      /* IE 5-7 */ }
     #page #reforma-form label {
       display: block; }
     #page #reforma-form h2 {
@@ -250,11 +268,58 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-top: 30px; }
     #page #reforma-form a:hover {
       font-weight: bold; }
+    #page #reforma-form ::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #FFFFFF;
+      font-style: italic; }
+    #page #reforma-form ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #FFFFFF;
+      font-style: italic; }
+    #page #reforma-form :-ms-input-placeholder {
+      /* IE 10+ */
+      color: #FFFFFF;
+      font-style: italic; }
+    #page #reforma-form :-moz-placeholder {
+      /* Firefox 18- */
+      color: #FFFFFF;
+      font-style: italic; }
+  #page #contato-form {
+    padding: 60px 0;
+    padding-top: 160px; }
+    #page #contato-form input {
+      display: inline-block; }
+    #page #contato-form label {
+      display: block; }
+    #page #contato-form h1 {
+      color: #514aa3;
+      margin-bottom: 10px; }
+    #page #contato-form h5 {
+      line-height: 22px; }
+    #page #contato-form p {
+      margin-top: 30px; }
+    #page #contato-form ::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #514aa3;
+      font-style: italic; }
+    #page #contato-form ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #514aa3;
+      font-style: italic; }
+    #page #contato-form :-ms-input-placeholder {
+      /* IE 10+ */
+      color: #514aa3;
+      font-style: italic; }
+    #page #contato-form :-moz-placeholder {
+      /* Firefox 18- */
+      color: #514aa3;
+      font-style: italic; }
   #page #vantagens-home {
     padding: 60px 0; }
     #page #vantagens-home h4 {
       color: #514aa3;
-      font-weight: bold; }
+      font-weight: bold;
+      margin-bottom: 10px; }
     #page #vantagens-home .saiba-mais {
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
@@ -321,7 +386,20 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         background-size: contain; }
   #page #maps .box-endereco {
     background-color: #514aa3;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    position: relative;
+    z-index: 900;
+    left: 0;
+    right: 0;
+    width: 600px;
+    border-radius: 10px;
+    padding: 25px 0;
+    margin-top: 5%; }
+  #page #maps .contato-destaque {
+    font-size: 16px;
+    font-weight: bold; }
+  #page #maps .contato-destaqueb {
+    font-size: 16px; }
   #page #orcamento {
     padding: 60px 0; }
   #page #contato-pag {
@@ -333,13 +411,28 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       background-color: #b1842c;
       color: white;
       padding: 25px; }
+  #page #contato-redes .col-md-4 {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  #page #contato-redes .twitter {
+    background-color: #514aa3; }
+  #page #contato-redes .instagran {
+    background-color: #474099; }
+  #page #contato-redes .facebook {
+    background-color: #3e378c; }
   @media (max-width: 991px) {
     #page .col-md-6 {
       margin-bottom: 10px; }
-    #page .img-responsivo {
-      width: 100%; }
     #page .wrap span::after, #page .wrap span::before {
-      background-color: transparent !important; } }
+      background-color: transparent !important; }
+    #page #depoimento .dep-conteudo {
+      margin-bottom: 50px; }
+    #page #vantagens-home .col-md-6 {
+      text-align: center !important; }
+    #page #vantagens-home .wrap {
+      margin-bottom: 15px; }
+    #page #vantagens-home .wrapb {
+      margin-bottom: 15px; } }
   #page #footer {
     padding: 50px 0;
     background-color: #127cc1; }
@@ -457,22 +550,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     background-color: #514aa3;
     padding: 10px;
     border-radius: 6px; }
-  #page ::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    color: #FFFFFF;
-    font-style: italic; }
-  #page ::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #FFFFFF;
-    font-style: italic; }
-  #page :-ms-input-placeholder {
-    /* IE 10+ */
-    color: #FFFFFF;
-    font-style: italic; }
-  #page :-moz-placeholder {
-    /* Firefox 18- */
-    color: #FFFFFF;
-    font-style: italic; }
+  #page .input-text-branco {
+    border: 2px solid #514aa3;
+    padding: 10px;
+    border-radius: 6px;
+    width: 100%; }
   #page .input-checkbox {
     display: block;
     margin-left: 20%; }
@@ -628,7 +710,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   padding-bottom: 26.25%;
   /* 16:9 */
   padding-top: 25px;
-  height: 0; }
+  height: 0;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  display: -webkit-box; }
 
 .videoWrapper iframe {
   pointer-events: none;

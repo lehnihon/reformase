@@ -15,6 +15,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link rel="shortcut icon" type="image/jpeg" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/fav.jpg"; ?>" />
 <?php wp_head(); ?>
 <script>
 new WOW().init();
@@ -31,7 +32,7 @@ new WOW().init();
 		              <li class="youtube"><a target="_blank" href="#"></a></li>
 		              <li class="instagram"><a target="_blank" href="#"></a></li>
 		              <li class="twitter"><a target="_blank" href="#"></a></li>
-		              <li class="facebook"><a target="_blank" href="#"></a></li>
+		              <li class="facebook"><a target="_blank" href="https://www.facebook.com/Reforma-Se-1167940799992871"></a></li>
 					</ul>
 				</div>
 			</div>
@@ -52,15 +53,13 @@ new WOW().init();
 						<li><a href="<?php echo home_url( '/' ); ?>">Home</a></li
 						><li><a href="<?php echo home_url( '/' )."sobre"; ?>">Quem Somos</a></li
 						><li><a href="<?php echo home_url( '/' )."reformas"; ?>">Reformas</a></li
-						><li><a href="#">Dicas</a></li
 						><li><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></li
 						><li><a href="<?php echo home_url( '/' )."reformas"; ?>">Quero um Orçamento</a></li>
 						</ul>								
 					</div>						
 					<div class="menu-header clearfix">
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."reformas"; ?>">Quero um Orçamento</a></div>
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>
-						<div class="menu-op"><a href="#">Dicas</a></div>								
+						<div class="menu-op"><a class="criar-conta" href="<?php echo home_url( '/' )."reformas"; ?>">Quero um Orçamento</a></div>
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>								
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."reformas"; ?>">Reformas</a></div>
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">Quem Somos</a></div>
 						<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Home</a></div>

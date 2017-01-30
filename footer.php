@@ -176,7 +176,7 @@
 			</div>
 			<div class="row fot-botoes">
 				<div class="col-md-6 text-right">
-					<a href="#orcamento" class="btn-redondo btn-branco">Mais depoimentos</a>
+					<a href="<?php echo home_url( '/' )."contato"; ?>" class="btn-redondo btn-branco">Fale Conosco</a>
 				</div>
 				<div class="col-md-6 text-left">
 					<span><a class="fot-sobre" href="<?php echo home_url( '/' )."sobre"; ?>">Saiba mais sobre a Reforma Se</a></span>
@@ -188,7 +188,6 @@
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."reforma-residencial"; ?>">Reforma residencial</a></div>
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."reforma-apartamento"; ?>">Reforma em apartamento</a></div>
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."reforma-escritorio"; ?>">Reforma em escritório</a></div>								
-						<div class="menu-op"><a href="#">Dicas</a></div>
 						<div class="menu-op"><a class="btTerms" href="#">Termos de uso</a></div>
 						<div class="menu-op"><a class="btPolitics" href="#">Política de privacidade</a></div>
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>
@@ -201,7 +200,7 @@
 		              <li class="youtube"><a target="_blank" href="#"></a></li>
 		              <li class="instagram"><a target="_blank" href="#"></a></li>
 		              <li class="twitter"><a target="_blank" href="#"></a></li>
-		              <li class="facebook"><a target="_blank" href="#"></a></li>
+		              <li class="facebook"><a target="_blank" href="https://www.facebook.com/Reforma-Se-1167940799992871/"></a></li>
 					</ul>
 				</div>
 			</div>

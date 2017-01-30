@@ -14,7 +14,7 @@ get_header(); ?>
 <div id="sobre-home">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 fadeInUp wow">
+			<div class="col-md-12 animated fadeInUp">
 				<h1>Reforma de Imóveis</h1><br>
 				<h5>A  ReformaSe é uma empresa especializada em reforma de imóveis, planejamento e execução de obras.<br>
 					Nossa proposta é planejar e realizar sua reforma de forma rápida, segura e eficiente.</h5>
@@ -52,7 +52,7 @@ get_header(); ?>
 		</div><br><br><br>
 		<div class="row animated fadeInUp wow">
 			<div class="col-md-12">
-				<a href="#orcamento" class="btn-redondo btn-roxo">Quero um Orçamento</a>
+				<a href="<?php echo home_url( '/' )."reformas"; ?>" class="btn-redondo btn-roxo">Quero um Orçamento</a>
 			</div>
 		</div><br>
 	</div>
@@ -96,11 +96,11 @@ get_header(); ?>
 				<div class="wrap"><span class="animated zoomIn wow"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant2.jpg"; ?>" /></span></div>
 			</div>
 			<div class="col-md-6 text-left animated fadeInUp wow">
-				 <h4>Gestão de Pagamento</h4><br>
+				 <h4>Gestão de Pagamento</h4>
 				 <p>Nossa forma de pagamento cabe no seu bolso!<br>
 					Você pode parcelar a execução da reforma do seu imóvel,
 					mais comodidade e segurança que a ReformaSe
-					oferece pra você.</p><br><br>
+					oferece pra você.</p><br><br><br>
 			</div>
 		</div>
 		<div class="row">
@@ -108,9 +108,9 @@ get_header(); ?>
 				<div class="wrap"><span class="animated zoomIn wow"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant3.jpg"; ?>" /></span></div>
 			</div>
 			<div class="col-md-6 text-left animated fadeInUp wow">
-				<h4>Seguro de Obra</h4><br>
+				<h4>Seguro de Obra</h4>
 				<p>A reforma do seu imóvel poderá contar ainda, com um 
-					seguro de obra, com o intuito de te tranquilizar ainda mais.</p><br><br>
+					seguro de obra, com o intuito de te tranquilizar ainda mais.</p><br><br><br>
 			</div>
 		</div>
 		<div class="row">
@@ -118,11 +118,11 @@ get_header(); ?>
 				<div class="wrap"><span class="animated zoomIn wow"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant1.jpg"; ?>" /></span></div>
 			</div>
 			<div class="col-md-6 text-left animated fadeInUp wow">
-				<h4>Acompanhe a reforma do seu imóvel</h4><br>
+				<h4>Acompanhe a reforma do seu imóvel</h4>
 				<p>Acompanhe passo a passo o andamento da reforma do 
 					seu imóvel, desde o orçamento e planejamento dos 
 					serviços até a conclusão dos mesmos, através de 
-					relatórios, fotografias e reuniões periódicas.</p><br><br>
+					relatórios, fotografias e reuniões periódicas.</p><br><br><br>
 			</div>
 		</div>
 		<div class="row">
@@ -130,7 +130,7 @@ get_header(); ?>
 				<div class="wrapb"><span class="animated zoomIn wow"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vant4.jpg"; ?>" /></span></div>
 			</div>
 			<div class="col-md-6 text-left animated fadeInUp wow">
-				<h4>Manutenção Preventiva e corretiva</h4><br>
+				<h4>Manutenção Preventiva e corretiva</h4>
 				<p>Com a Reforma Se, você também tem a opção de realizar a manutenção preventiva e corretiva do seu estabelecimento comercial e residencial.</p><br><br>
 			</div>
 		</div>
