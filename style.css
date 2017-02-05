@@ -356,6 +356,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page #depoimento {
     background-color: #f6f8fb;
     padding: 60px 0; }
+    #page #depoimento h4, #page #depoimento p {
+      color: #514aa3; }
     #page #depoimento .dep-conteudo {
       display: inline-block;
       background-color: #514aa3;
@@ -364,7 +366,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       padding-bottom: 0px;
       border-radius: 10px;
       line-height: 22px;
-      width: 250px; }
+      width: 250px;
+      margin-bottom: 50px; }
       #page #depoimento .dep-conteudo .dep-foto {
         border-radius: 50%;
         border: 1px solid #514aa3;

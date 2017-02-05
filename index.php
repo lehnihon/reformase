@@ -151,20 +151,26 @@ get_header(); ?>
 					“A @reformase fez a obra aqui em casa com qualidade e no tempo previsto. Tudo ficou como eu queria, Valeu Reformase!!!!”<br>
 					<div class="dep-foto imga"></div>
 				</div>
+				<h4>Nome da pessoa completo</h4>
+				<p>@josemaria</p>
 			</div>
 			<div class="col-md-4 text-center">
 				<div class="dep-conteudo animated fadeInUp wow" data-wow-delay="0.25s">
 					“A @reformase fez a obra aqui em casa com qualidade e no tempo previsto. Tudo ficou como eu queria, Valeu Reformase!!!!”<br>
 					<div class="dep-foto imgb"></div>
 				</div>
+				<h4>Nome da pessoa completo</h4>
+				<p>@josemaria</p>
 			</div>
 			<div class="col-md-3 text-center">
 				<div class="dep-conteudo animated fadeInUp wow" data-wow-delay="0.5s">
 					“A @reformase fez a obra aqui em casa com qualidade e no tempo previsto. Tudo ficou como eu queria, Valeu Reformase!!!!”<br>
 					<div class="dep-foto imgc"></div>
 				</div>
+				<h4>Nome da pessoa completo</h4>
+				<p>@josemaria</p>
 			</div>
-		</div><br><br>
+		</div>
 	</div>
 </div>
 

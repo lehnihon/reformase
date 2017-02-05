@@ -298,6 +298,10 @@
 	background-color:#f6f8fb;
 	padding:60px 0;
 
+	h4,p{
+		color:#514aa3;
+	}
+
 	.dep-conteudo{
 		display:inline-block;
 		background-color:#514aa3;
@@ -307,6 +311,7 @@
 		border-radius: 10px;
 		line-height:22px;
 		width:250px;
+		margin-bottom:50px;
 
 		.dep-foto{
 			border-radius: 50%;
