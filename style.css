@@ -367,7 +367,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       border-radius: 10px;
       line-height: 22px;
       width: 250px;
-      margin-bottom: 50px; }
+      margin-bottom: 55px; }
       #page #depoimento .dep-conteudo .dep-foto {
         border-radius: 50%;
         border: 1px solid #514aa3;
@@ -379,14 +379,17 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         top: 40px;
         left: 33%; }
       #page #depoimento .dep-conteudo .imga {
-        background-image: url("images/shodji.jpg");
-        background-size: contain; }
+        background-image: url("images/ReformaSe - Depoimento 03 - Vivene Calcados.jpg");
+        background-size: contain;
+        background-repeat: no-repeat; }
       #page #depoimento .dep-conteudo .imgb {
-        background-image: url("images/shodji.jpg");
-        background-size: contain; }
+        background-image: url("images/ReformaSe - Depoimento 02 - Lucimara Mondadori.jpg");
+        background-size: contain;
+        background-repeat: no-repeat; }
       #page #depoimento .dep-conteudo .imgc {
-        background-image: url("images/shodji.jpg");
-        background-size: contain; }
+        background-image: url("images/ReformaSe - Depoimento 04 - Antonio Carlos Rissardo.jpg");
+        background-size: contain;
+        background-repeat: no-repeat; }
   #page #maps .box-endereco {
     background-color: #514aa3;
     color: #FFFFFF;

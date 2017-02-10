@@ -148,27 +148,24 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-md-3 col-md-offset-1 text-center">
 				<div class="dep-conteudo animated fadeInUp wow">
-					“A @reformase fez a obra aqui em casa com qualidade e no tempo previsto. Tudo ficou como eu queria, Valeu Reformase!!!!”<br>
+					“Agradecemos pelo ótimo atendimento e pela qualidade de todo o projeto que foi executado. Um obrigado da nossa equipe para a ReformaSe. ”<br>
 					<div class="dep-foto imga"></div>
 				</div>
-				<h4>Nome da pessoa completo</h4>
-				<p>@josemaria</p>
+				<h4>@ViveneCalcados</h4>
 			</div>
 			<div class="col-md-4 text-center">
 				<div class="dep-conteudo animated fadeInUp wow" data-wow-delay="0.25s">
-					“A @reformase fez a obra aqui em casa com qualidade e no tempo previsto. Tudo ficou como eu queria, Valeu Reformase!!!!”<br>
+					“Muito obrigada, vocês são demais ReformaSe. Equipe super atenciosa, tudo feito no prazo que combinamos.”<br>
 					<div class="dep-foto imgb"></div>
 				</div>
-				<h4>Nome da pessoa completo</h4>
-				<p>@josemaria</p>
+				<h4>Patricia Alves</h4>
 			</div>
 			<div class="col-md-3 text-center">
 				<div class="dep-conteudo animated fadeInUp wow" data-wow-delay="0.5s">
-					“A @reformase fez a obra aqui em casa com qualidade e no tempo previsto. Tudo ficou como eu queria, Valeu Reformase!!!!”<br>
+					“Reformase muito obrigado, a obra ficou excelente, tudo muito bem planejado e sem dor de cabeça pra mim. Valeu”<br>
 					<div class="dep-foto imgc"></div>
 				</div>
-				<h4>Nome da pessoa completo</h4>
-				<p>@josemaria</p>
+				<h4>Antonio Carlos</h4>
 			</div>
 		</div>
 	</div>
