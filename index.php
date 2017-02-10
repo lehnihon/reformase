@@ -148,7 +148,7 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-md-3 col-md-offset-1 text-center">
 				<div class="dep-conteudo animated fadeInUp wow">
-					“Agradecemos pelo ótimo atendimento e pela qualidade de todo o projeto que foi executado. Um obrigado da nossa equipe para a ReformaSe. ”<br>
+					“Agradecemos pelo ótimo atendimento e pela qualidade de todo o projeto que foi executado. Muito obrigado! ”<br>
 					<div class="dep-foto imga"></div>
 				</div>
 				<h4>@ViveneCalcados</h4>
