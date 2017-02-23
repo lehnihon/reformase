@@ -19,7 +19,7 @@ get_header(); ?>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 videoWrapper">
-				<div class="box-endereco animated fadeInUp wow">
+				<div class="box-endereco fadeInUp wow">
 					<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/contato-cor.jpg"; ?>" /><br><br>
 					<p>
 						Nosso escritório<br>
@@ -43,13 +43,13 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 twitter">
-				<img alt="logo" class="e-claro animated fadeInUp wow" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/contato-twitter.jpg"; ?>" />
+				<img alt="logo" class="e-claro fadeInUp wow" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/contato-twitter.jpg"; ?>" />
 			</div>
 			<div class="col-md-4 instagran" >
-				<img alt="logo" class="e-claro animated fadeInUp wow" data-wow-delay="0.25s" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/contato-instagran.jpg"; ?>" />
+				<img alt="logo" class="e-claro fadeInUp wow" data-wow-delay="0.25s" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/contato-instagran.jpg"; ?>" />
 			</div>
 			<div class="col-md-4 facebook" >
-				<img alt="logo" class="e-claro animated fadeInUp wow" data-wow-delay="0.5s" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/contato-facebook.jpg"; ?>" />
+				<img alt="logo" class="e-claro fadeInUp wow" data-wow-delay="0.5s" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/contato-facebook.jpg"; ?>" />
 			</div>
 		</div>
 	</div>

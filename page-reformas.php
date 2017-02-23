@@ -8,25 +8,25 @@ get_header(); ?>
 <div id="solucoes-sobre">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 animated fadeInUp">
+			<div class="col-md-12 wow fadeInUp">
 				<h1>Qual o tipo de reforma?</h1><br>
 				<h5>Indique abaixo se você deseja realizar uma reforma residencial, reforma em apartamento, reforma comercial ou construção.</h5>
 			</div>
 		</div><br><br><br>
 		<div class="row">
-			<div class="col-md-3 col-md-offset-1 animated fadeInLeft wow">
+			<div class="col-md-3 col-md-offset-1 wow fadeInLeft">
 				<a class="ref-res" href="<?php echo home_url( '/' )."reforma-residencial"; ?>">
 					<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tipo1b.jpg"; ?>" />
 					<p class="roxo">Reforma residencial</p>
 				</a>
 			</div>
-			<div class="col-md-4 animated fadeIn wow">
+			<div class="col-md-4 fadeIn wow">
 				<a class="ref-apt" href="<?php echo home_url( '/' )."reforma-apartamento"; ?>">
 					<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tipo2b.jpg"; ?>" />
 					<p class="roxo">Reforma em apartamento</p>
 				</a>
 			</div>
-			<div class="col-md-3 animated fadeInRight wow">
+			<div class="col-md-3 fadeInRight wow">
 				<a class="ref-com" href="<?php echo home_url( '/' )."reforma-comercial"; ?>">
 					<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tipo3b.jpg"; ?>" />
 					<p class="roxo">Reforma comercial</p>
@@ -39,14 +39,14 @@ get_header(); ?>
 <div id="sobre-reformas">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 animated fadeInUp wow">
+			<div class="col-md-12 wow fadeInUp">
 				<h2>Reforma de Imóveis</h2><br>
 				<h5>A  Reforma Se é uma empresa especializada em reforma de imóveis, planejamento e execução de obras.<br>
 				Nossa proposta é planejar e realizar sua reforma de forma rápida, segura e eficiente.</h5>
 			</div>
 		</div><br><br><br>
-		<div class="row animated fadeInUp wow">
-			<div class="col-md-3 animated">
+		<div class="row fadeInUp wow">
+			<div class="col-md-3">
 				<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre1b.jpg"; ?>" />
 				<h4>Orçamento gratuito</h4>
 				<p>
@@ -75,7 +75,7 @@ get_header(); ?>
 				</p>
 			</div>
 		</div><br><br><br>
-		<div class="row animated fadeInUp wow">
+		<div class="row fadeInUp wow">
 			<div class="col-md-12">
 				<a href="<?php echo home_url( '/' )."reformas"; ?>" class="btn-redondo btn-branco">Quero um Orçamento</a>
 			</div>

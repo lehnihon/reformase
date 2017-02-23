@@ -212,7 +212,7 @@
 				<div class="col-md-6 text-left text-footer">
 					&copy; Copyright <?php echo date('Y') ?> - Todos os direitos reservados - ReformaSe
 				</div>
-				<div class="col-md-3 col-md-offset-3 text-left">
+				<div class="col-md-3 col-md-offset-3 text-right">
 					<a target="_blank" href="https://www.facebook.com/seimidigital/?ref=ts&fref=ts">
 						<img class="e-claro anima-rino" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/mei.jpg"; ?>" />
 					</a>

@@ -8,7 +8,7 @@ get_header(); ?>
 <div id="reforma-titulo">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 animated fadeInUp">
+			<div class="col-md-8 col-md-offset-2 wow fadeInUp">
 				<a class="ref-apt" href="#">
 					<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tipo2b.jpg"; ?>" />
 					<h2 class="roxo">Reforma em apartamento</h2>
@@ -23,7 +23,7 @@ get_header(); ?>
 <div id="reforma-form">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 animated fadeInUp wow">
+			<div class="col-md-12 fadeInUp wow">
 				<?php echo do_shortcode('[contact-form-7 id="11" title="Reforma Apartamento"]'); ?>
 			</div>
 		</div>
