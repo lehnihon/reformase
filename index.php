@@ -158,7 +158,7 @@ get_header(); ?>
 					“Muito obrigada, vocês são demais ReformaSe. Equipe super atenciosa, tudo feito no prazo que combinamos.”<br>
 					<div class="dep-foto imgb"></div>
 				</div>
-				<h4>Patricia Alves</h4>
+				<h4>Lucimara Mondadori</h4>
 			</div>
 			<div class="col-md-3 text-center">
 				<div class="dep-conteudo  fadeInUp wow" data-wow-delay="0.5s">
