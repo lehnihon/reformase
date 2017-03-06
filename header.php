@@ -54,11 +54,13 @@ new WOW().init();
 						><li><a href="<?php echo home_url( '/' )."sobre"; ?>">Quem Somos</a></li
 						><li><a href="<?php echo home_url( '/' )."reformas"; ?>">Reformas</a></li
 						><li><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></li
+						><li><a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">Trabalhe Conosco</a></li
 						><li><a href="<?php echo home_url( '/' )."reformas"; ?>">Quero um Orçamento</a></li>
 						</ul>								
 					</div>						
 					<div class="menu-header clearfix">
 						<div class="menu-op"><a class="criar-conta" href="<?php echo home_url( '/' )."reformas"; ?>">Quero um Orçamento</a></div>
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">Trabalhe Conosco</a></div>
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>								
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."reformas"; ?>">Reformas</a></div>
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">Quem Somos</a></div>

@@ -191,6 +191,7 @@
 						<div class="menu-op"><a class="btTerms" href="#">Termos de uso</a></div>
 						<div class="menu-op"><a class="btPolitics" href="#">Política de privacidade</a></div>
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>
+						<div class="menu-op"><a href="<?php echo home_url( '/' )."Trabalhe-conosco"; ?>">Trabalhe conosco</a></div>
 					</div>
 				</div>
 			</div>
