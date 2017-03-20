@@ -9,8 +9,8 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 wow fadeInUp">
-				<h1>A Reforma Se</h1><br>
-				<h5>A  Reforma Se é uma empresa especializada em reforma de imóveis, planejamento e execução de obras.<br>
+				<h1>A ReformaSe</h1><br>
+				<h5>A  ReformaSe é uma empresa especializada em reforma de imóveis, planejamento e execução de obras.<br>
 Nossa proposta é planejar e realizar sua reforma de forma rápida, segura e eficiente.</h5>
 			</div>
 		</div><br><br><br>
@@ -38,10 +38,10 @@ Nossa proposta é planejar e realizar sua reforma de forma rápida, segura e efi
 			<div class="col-md-12 text-left">
 				<p class="roxo"><strong>Qualidade, eficiência e comprometimento na reforma do seu imóvel.</strong></p>
 				<p>A qualidade da reforma do seu imóvel depende da qualidade, eficiência e comprometimento de todas as pessoas que que vão executar esse trabalho.<br>
-				A Reforma Se entende isso muito bem e por somos diferentes de tudo que você já viu. Temos nossa própria equipe, todos qualificados e comprometidos com a
+				A ReformaSe entende isso muito bem e por somos diferentes de tudo que você já viu. Temos nossa própria equipe, todos qualificados e comprometidos com a
 	reforma do seu imóvel.</p>
 				<p>
-					Isso faz toda a diferença, seja no atendimento, nas tarefas diárias da reforma, na limpeza do imóvel e em cada acabamento. Com isso, a Reforma Se ganhou destaque e hoje conta com uma equipe composta pelos mais diversos profissionais, desde engenheiros, projetistas, eletricistas, gesseiros e pedreiros com muita 
+					Isso faz toda a diferença, seja no atendimento, nas tarefas diárias da reforma, na limpeza do imóvel e em cada acabamento. Com isso, a ReformaSe ganhou destaque e hoje conta com uma equipe composta pelos mais diversos profissionais, desde engenheiros, projetistas, eletricistas, gesseiros e pedreiros com muita 
 	experiência e anos de casa.
 				</p>
 			</div>
