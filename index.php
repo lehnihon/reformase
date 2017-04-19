@@ -7,7 +7,9 @@ get_header(); ?>
 
 <div id="topo" class="container-fluid">
 	<div class="row">		
-		<?php putRevSlider( "banner-index" ) ?>		
+		<?php 
+    echo do_shortcode("[metaslider id=41]"); 
+?>
 	</div>
 </div>
 

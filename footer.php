@@ -198,10 +198,10 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<ul class="redes_sociais_header">
-		              <li class="youtube"><a target="_blank" href="#"></a></li>
-		              <li class="instagram"><a target="_blank" href="#"></a></li>
-		              <li class="twitter"><a target="_blank" href="#"></a></li>
-		              <li class="facebook"><a target="_blank" href="https://www.facebook.com/Reforma-Se-1167940799992871/"></a></li>
+		              <li class="youtube"><a target="_blank" href="https://www.facebook.com/ReformaSe-1167940799992871/"></a></li>
+		              <li class="instagram"><a target="_blank" href="https://twitter.com/reformaseimovel"></a></li>
+		              <li class="twitter"><a target="_blank" href="https://www.instagram.com/reformase/"></a></li>
+		              <li class="facebook"><a target="_blank" href="https://www.youtube.com/channel/UC21Ccd5LooCmj9_iwc2fX-w"></a></li>
 					</ul>
 				</div>
 			</div>
@@ -214,7 +214,7 @@
 					&copy; Copyright <?php echo date('Y') ?> - Todos os direitos reservados - ReformaSe
 				</div>
 				<div class="col-md-3 col-md-offset-3 text-right">
-					<a target="_blank" href="https://www.facebook.com/seimidigital/?ref=ts&fref=ts">
+					<a target="_blank" href="http://www.seimidigital.com.br">
 						<img class="e-claro anima-rino" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/mei.jpg"; ?>" />
 					</a>
 				</div>				
